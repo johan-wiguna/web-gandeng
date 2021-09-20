@@ -6,9 +6,19 @@ body {
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
 .section-title {
     text-align: center;
+    color: rgb(145, 145, 145);
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
 }
 
 .program-name {
