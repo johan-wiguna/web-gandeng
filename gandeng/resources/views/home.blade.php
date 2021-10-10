@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="home-carousel">
+<div id="home-carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -30,19 +30,19 @@
         </div>
 </div>
 
-<div class="home-gandeng-identity">
+<div id="home-gandeng-identity">
 
 </div>
 
-<div class="home-programs">
+<div id="home-programs">
 
 </div>
 
-<div class="home-mentor-hub">
+<div id="home-mentor-hub">
 
 </div>
 
-<div class="home-updates">
+<div id="home-updates">
 
 </div>
 @endsection
