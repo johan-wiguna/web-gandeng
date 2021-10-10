@@ -48,19 +48,25 @@
     </div>
     <div class="bg-gac-1 p-5">
         <div class="container d-flex ">
-            <div class="col1 d-flex-row">
-                <img class="w-75" src="../img/welcome-image3.png" alt="">
+            <div class="col1 d-block text-center">
+                <img class="w-75 align-middle" src="../img/welcome-image3.png" alt="">
                 <p class="text-justify text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
             </div>
             <div class="col2">
-                <ul>
-                    <li>lore</li>
-                </ul>
+                <h4 class="text-section-title ">Benefit</h4>
+                    <ul class="text-content-light">
+                        <li>Benefit 1</li>
+                        <li>Benefit 1</li>
+                        <li>Benefit 1</li>
+                    </ul>
             </div>
             <div class="col3">
-                <ul>
-                    <li>lore</li>
-                </ul>
+                <h4 class="text-section-title ">Achievements</h4>
+                    <ul class="text-content-light">
+                        <li>Benefit 1</li>
+                        <li>Benefit 1</li>
+                        <li>Benefit 1</li>
+                    </ul>
             </div>
 
                 
