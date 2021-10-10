@@ -69,8 +69,20 @@ body {
 p{
     margin: 0;
 }
+
 .navbar {
     background-color: #252525 !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #d8d8d8;
 }
  
 /* HOME PAGE */
@@ -106,6 +118,7 @@ p{
 /* FOOTER */
 footer {
     padding: 40px 10%;
+    background-color: #252525;
 }
 
 footer ul {
