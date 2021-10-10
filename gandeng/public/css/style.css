@@ -21,6 +21,14 @@
     font-weight: 300;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
+.text-light {
+    color: white !important;
+}
+
 .text-dark {
     color: #111111 !important;
 }
@@ -58,6 +66,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+p{
+    margin: 0;
+}
 .navbar {
     background-color: #252525 !important;
 }
@@ -68,9 +79,27 @@ body {
     width: 100%;
     height: 500px;
     object-fit: cover;
-}
+}   
 
 /* home-gandeng-identity */
+
+#home-gandeng-identity .body img{
+    height: 200px;
+}
+/* home-programs */
+
+
+.col1{
+    flex : 1;
+}
+
+.col2{
+    flex : 1;
+}
+
+.col3{
+    flex : 1;
+}
 
 
 

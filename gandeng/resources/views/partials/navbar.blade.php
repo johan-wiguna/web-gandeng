@@ -14,16 +14,26 @@
                     <a class="nav-link"  href="/">Home</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">About Us</a>
-                </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link" href="/blog" >Departements</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Our Story</a></li>
+                        <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
+                        <li><a class="dropdown-item" href="#">People Behind Gandeng</a></li>
+                    </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Programs </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Departements</a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Branding</a></li>
+                        <li><a class="dropdown-item" href="#">Operations</a></li>
+                        <li><a class="dropdown-item" href="#">Strategy & Growth</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                         <li><a class="dropdown-item" href="#">G-Acadaemia</a></li>
                         <li><a class="dropdown-item" href="#">G-Consulting</a></li>
