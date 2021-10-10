@@ -13,6 +13,7 @@
 .text-section-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .text-content-light {
@@ -30,6 +31,10 @@
 
 .bg-dark {
     background-color: #111111;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
