@@ -12,7 +12,7 @@
 
 .text-section-title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -33,6 +33,20 @@
     background-color: #111111;
 }
 
+.bg-yellow {
+    background-color: #FCD12A;
+}
+
+.bg-gac-1 {
+    background-color: #EFA4E9;
+}
+.bg-gcon-1 {
+    background-color: #76A2E2;
+}
+.bg-ginc-1 {
+    background-color: #9CE8C4;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -40,7 +54,16 @@ body {
 .navbar {
     background-color: #252525 !important;
 }
-
+ 
+/* HOME PAGE */
+/* carousel */
 .carousel-inner img{
-    width: 100px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
+
+/* home-gandeng-identity */
+
+
+
