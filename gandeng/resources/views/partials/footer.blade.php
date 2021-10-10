@@ -31,7 +31,6 @@
             <div class="footer-sub-section">
                 <div class="footer-sub-title">Other</div>
                 <ul class="footer-nav-links">
-                    <li><a href="/about">About Us</a></li>
                     <li><a href="/partnership">Partnership</a></li>
                     <li><a href="/gallery">Gallery</a></li>
                     <li><a href="/events">Events</a></li>
@@ -55,7 +54,7 @@
                 <br>
                 <input class="w-100 mb-2" type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email here...">
                 
-                <button class="btn-rect bg-yellow text-end" type="submit">Subscribe</button>
+                <button class="btn-rect bg-yellow" type="submit">Subscribe</button>
             </form>
         </div>
     </div>
