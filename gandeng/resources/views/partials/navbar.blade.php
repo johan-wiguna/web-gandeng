@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark font-montserrat">
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src={{ asset("img/gandeng-logotype.png") }} alt="" width="100">

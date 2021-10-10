@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white">
+<footer class="text-white">
     <div class="d-flex justify-content-between">
         <div class="footer-navigation d-flex justify-content-between w-100">
             <div class="footer-sub-section">
@@ -55,7 +55,7 @@
                 <br>
                 <input class="w-100 mb-2" type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email here...">
                 
-                <button class="btn-rect bg-yellow" type="submit">Subscribe</button>
+                <button class="btn-rect bg-yellow text-end" type="submit">Subscribe</button>
             </form>
         </div>
     </div>
