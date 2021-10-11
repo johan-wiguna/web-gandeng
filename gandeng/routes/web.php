@@ -19,3 +19,15 @@ Route::get('/', function () {
         "title" => "Home"
     ]);
 });
+
+Route::get('/about', function () {
+    return view('about', [
+        "title" => "About Us"
+    ]);
+});
+
+Route::get('/about/people', function () {
+    return view('about-people', [
+        "title" => "About Us"
+    ]);
+});
