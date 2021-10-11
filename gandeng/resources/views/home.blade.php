@@ -44,34 +44,81 @@
 
 <div id="home-programs">
     <div class="container">
-        <h2 class="text-section-title text-left py-3">Our Programs</h2>
+        <h2 class="text-section-title text-center py-5">Our Programs</h2>
     </div>
-    <div class="bg-gac-1 p-5">
-        <div class="container d-flex ">
-            <div class="col1 d-block text-center">
-                <img class="w-75 align-middle" src="../img/welcome-image3.png" alt="">
-                <p class="text-justify text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
-            </div>
-            <div class="col2">
-                <h4 class="text-section-title ">Benefit</h4>
-                    <ul class="text-content-light">
-                        <li>Benefit 1</li>
-                        <li>Benefit 1</li>
-                        <li>Benefit 1</li>
-                    </ul>
-            </div>
-            <div class="col3">
-                <h4 class="text-section-title ">Achievements</h4>
-                    <ul class="text-content-light">
-                        <li>Benefit 1</li>
-                        <li>Benefit 1</li>
-                        <li>Benefit 1</li>
-                    </ul>
-            </div>
-
-                
-            </div>
+    <div class="g-ac d-flex align-items-stretch">
+        <div class="col1 d-block text-center">
+            <img class="w-75 align-middle" src="../img/g-academia-logotype.png" alt="">
+            <p class="text-justify text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
         </div>
+        <div class="col2 bg-gac-1">
+            <h4 class="text-section-title text-center">Benefit</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+        <div class="col3 bg-gac-1">
+            <h4 class="text-section-title text-center">Achievements</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+
+            
+    </div>
+    <div class="g-ac d-flex align-items-stretch">
+        <div class="col1 d-block text-center">
+            <img class="w-75 align-middle" src="../img/g-consulting-logotype.png" alt="">
+            <p class="text-justify text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
+        </div>
+        <div class="col2 bg-gcon-1">
+            <h4 class="text-section-title text-center">Benefit</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+        <div class="col3 bg-gcon-1">
+            <h4 class="text-section-title text-center">Achievements</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+
+            
+    </div>
+    <div class="g-ac d-flex align-items-stretch">
+        <div class="col1 d-block text-center">
+            <img class="w-75 align-middle" src="../img/g-incubation-logotype.png" alt="">
+            <p class="text-justify text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
+        </div>
+        <div class="col2 bg-ginc-1">
+            <h4 class="text-section-title text-center">Benefit</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+        <div class="col3 bg-ginc-1">
+            <h4 class="text-section-title text-center">Achievements</h4>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+
+            
+    </div>
+    
                 
         
     </div>
@@ -83,5 +130,21 @@
 
 <div id="home-updates">
 
+</div>
+
+<div id="home-story">
+    <div class="bg-dark p-5 d-flex ">
+        
+            <div class="col1 d-block text-center text-light">
+                <h4>Our Story!</h4>
+                <h1>Meet The Team!</h1>
+                <h6>Meet our hardworking and dedicated team behind Gandeng Foundation</h6>
+                <button type="button" class="btn btn-warning">Read More</button>
+            </div>
+            <div class="col2 d-flex justify-content-center">
+                <img class="w-75 align-items-center" src="../img/zoom.png" alt="">
+            </div>
+        
+    </div>
 </div>
 @endsection
