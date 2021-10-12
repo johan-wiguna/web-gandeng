@@ -55,10 +55,10 @@
 </div>
 
 <div id="home-programs">
-    <div class="text-section-title text-center py-5">Our Programs</div>
+    <div class="text-section-title text-center">Our Programs</div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center bg-white">
+        <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ url('img/g-academia-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -81,7 +81,7 @@
     </div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center bg-white">
+        <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ url('img/g-consulting-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center bg-white">
+        <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ url('img/g-incubation-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
