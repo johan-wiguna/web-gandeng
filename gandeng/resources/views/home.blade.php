@@ -17,13 +17,13 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../img/welcome-image1.png" class="d-block" alt="...">
+                <img src="../img/welcome-image6.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/welcome-image5.png" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="../img/welcome-image2.png" class="d-block" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/welcome-image3.png" class="d-block" alt="...">
             </div>
         </div>
 
@@ -43,7 +43,7 @@
     <div class="container">
         <div class="d-flex align-items-center">
             <div class="identity-left">
-                <div class="text-section-title mb-2">Who are we?</div>
+                <div class="text-section-title mb-4">Who are we?</div>
                 <p class="text-justify text-content-light pe-5 pb-0">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus assumenda expedita natus officiis est hic in eos similique cum totam dolore inventore, facilis fugit saepe? Fugiat a assumenda harum vitae quibusdam minus distinctio ullam nesciunt, officia qui mollitia vel velit, ratione culpa, modi necessitatibus? Maiores earum esse quasi, nesciunt illum illo assumenda laborum quis. Cumque ab deleniti dolore accusantium nostrum itaque numquam iure vero enim, aliquam beatae alias officia blanditiis dolorem voluptate nisi tempora, culpa dolores repellat at? Rerum, placeat fugit assumenda vero omnis in minus voluptate eligendi repudiandae. Tenetur, ipsam. Quae iste aspernatur debitis fugit necessitatibus esse voluptatibus rerum?
                 </p>
@@ -55,15 +55,15 @@
 </div>
 
 <div id="home-programs">
-    <h2 class="text-section-title text-center py-5">Our Programs</h2>
+    <div class="text-section-title text-center py-5">Our Programs</div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center">
-            <img class="w-75 align-middle" src="../img/g-academia-logotype.png" alt="">
-            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
+        <div class="col1 d-block text-center bg-white">
+            <img class="w-50 align-middle" src="{{ url('img/g-academia-logotype.png') }}" alt="">
+            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gac-1">
-            <h4 class="text-sub-section-title text-center mb-3">Benefits</h4>
+            <div class="text-sub-section-title text-center mb-3">Benefits</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -71,7 +71,7 @@
             </ul>
         </div>
         <div class="col3 bg-gac-1">
-            <h4 class="text-sub-section-title text-center mb-3">Achievements</h4>
+            <div class="text-sub-section-title text-center mb-3">Achievements</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -81,12 +81,12 @@
     </div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center">
-            <img class="w-75 align-middle" src="../img/g-consulting-logotype.png" alt="">
-            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
+        <div class="col1 d-block text-center bg-white">
+            <img class="w-50 align-middle" src="{{ url('img/g-consulting-logotype.png') }}" alt="">
+            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gcon-1">
-            <h4 class="text-sub-section-title text-center mb-3">Benefits</h4>
+            <div class="text-sub-section-title text-center mb-3">Benefits</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -94,7 +94,7 @@
             </ul>
         </div>
         <div class="col3 bg-gcon-1">
-            <h4 class="text-sub-section-title text-center mb-3">Achievements</h4>
+            <div class="text-sub-section-title text-center mb-3">Achievements</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -104,12 +104,12 @@
     </div>
 
     <div class="program d-flex">
-        <div class="col1 d-block text-center">
-            <img class="w-75 align-middle" src="../img/g-incubation-logotype.png" alt="">
-            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ut!</p>
+        <div class="col1 d-block text-center bg-white">
+            <img class="w-50 align-middle" src="{{ url('img/g-incubation-logotype.png') }}" alt="">
+            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-ginc-1">
-            <h4 class="text-sub-section-title text-center mb-3">Benefits</h4>
+            <div class="text-sub-section-title text-center mb-3">Benefits</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -117,7 +117,30 @@
             </ul>
         </div>
         <div class="col3 bg-ginc-1">
-            <h4 class="text-sub-section-title text-center mb-3">Achievements</h4>
+            <div class="text-sub-section-title text-center mb-3">Achievements</div>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="program d-flex">
+        <div class="col1 d-block text-center bg-white">
+            <img class="w-50 align-middle" src="{{ url('img/mentor-hub-logotype.png') }}" alt="">
+            <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col2 bg-yellow">
+            <div class="text-sub-section-title text-center mb-3">Benefits</div>
+            <ul class="text-content-light">
+                <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
+                <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
+                <li>Benefit 1</li>
+            </ul>
+        </div>
+        <div class="col3 bg-yellow">
+            <div class="text-sub-section-title text-center mb-3">Achievements</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -132,13 +155,13 @@
 </div>
 
 <div id="home-story">
-    <div class="bg-dark p-5 d-flex ">
+    <div class="bg-dark p-5 d-flex align-items-center">
         
             <div class="col1 d-block text-center text-light">
-                <h4>Our Story!</h4>
-                <h1>Meet The Team!</h1>
-                <h6>Meet our hardworking and dedicated team behind Gandeng Foundation</h6>
-                <button type="button" class="btn btn-warning">Read More</button>
+                <div class="text-section-title mb-2">Meet the team</div>
+                <div class="text-content-light mb-5">If you're curious to know more about the people of Gandeng, check out our gallery to acknowledge us better!</div>
+                
+                <a class="btn-primary-round" href="/gallery">Go to Gallery</a>
             </div>
             <div class="col2 d-flex justify-content-center">
                 <img class="w-75 align-items-center" src="../img/zoom.png" alt="">
