@@ -54,7 +54,7 @@
                 <br>
                 <input class="w-100 mb-2" type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email here...">
                 
-                <button class="btn-rect bg-yellow" type="submit">Subscribe</button>
+                <button class="btn-primary-rect" type="submit">Subscribe</button>
             </form>
         </div>
     </div>
