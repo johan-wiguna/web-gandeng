@@ -59,7 +59,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/g-academia-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-academia-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gac-1">
@@ -82,7 +82,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/g-consulting-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-consulting-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gcon-1">
@@ -105,7 +105,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/g-incubation-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-incubation-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-ginc-1">
@@ -128,7 +128,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center bg-white">
-            <img class="w-50 align-middle" src="{{ url('img/mentor-hub-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/mentor-hub-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-yellow">
@@ -151,10 +151,10 @@
 </div>
 
 <div id="home-updates">
-
+    <div class="text-section-title text-center">Our Updates</div>
 </div>
 
-<div id="home-story">
+<div id="home-gallery">
     <div class="bg-dark p-5 d-flex align-items-center">
         
             <div class="col1 d-block text-center text-light">

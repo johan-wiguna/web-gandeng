@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top font-montserrat px-2">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src={{ url("img/gandeng-logotype.png") }} alt="" width="100">
+            <img src={{ url("img/gandeng-logos/gandeng-logotype.png") }} alt="" width="100">
         </a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
