@@ -8,6 +8,7 @@
 </script>
 
 <section id="home-carousel">
+    {{-- Carousel images will be taken from database --}}
     <div id="carousel-slides" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,7 +60,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-academia-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-academia-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gac-1">
@@ -82,7 +83,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-consulting-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-consulting-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gcon-1">
@@ -105,7 +106,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center">
-            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/g-incubation-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-incubation-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-ginc-1">
@@ -128,7 +129,7 @@
 
     <div class="program d-flex">
         <div class="col1 d-block text-center bg-white">
-            <img class="w-50 align-middle" src="{{ url('img/gandeng-logos/mentor-hub-logotype.png') }}" alt="">
+            <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/mentor-hub-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-yellow">
@@ -152,7 +153,27 @@
 
 <section id="home-updates">
     <div class="text-section-title text-center">Our Updates</div>
-
+    
+    <div class="container row">
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="{{ asset('img/welcome-image1.png') }}" class="card-img-top w-25" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+    </div>
 </section>
 
 <section id="home-gallery">
@@ -160,7 +181,7 @@
         
             <div class="text-center text-light">
                 <div class="text-section-title mt-0">Meet the team</div>
-                <div class="text-content-light mb-5">If you're curious to know more about the people of Gandeng, check out our gallery to acknowledge us better!</div>
+                <div class="text-content-light mb-5">Meet our hardworking and dedicated team behing Gandeng Foundation through our gallery to know us deeper!</div>
                 
                 <button class="btn-primary-round" onclick="location.href='/gallery';">Go to Gallery</button>
             </div>

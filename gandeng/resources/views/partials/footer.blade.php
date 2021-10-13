@@ -61,7 +61,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
         <div id="footer-logo">
-            <img src="{{ url('img/gandeng-logos/gandeng-logotype-light.png') }}" alt="">
+            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light.png') }}" alt="">
         </div>
         
         <div id="footer-tagline" class="font-montserrat text-center"><b>#GandengSetaraTumbuhBersama</b></div>
