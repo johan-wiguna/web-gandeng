@@ -7,7 +7,7 @@
     });
 </script>
 
-<div id="home-carousel">
+<section id="home-carousel">
     <div id="carousel-slides" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,9 +37,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
+</section>
 
-<div id="home-gandeng-identity" class="bg-yellow p-5">
+<section id="home-gandeng-identity" class="bg-yellow p-5">
     <div class="container">
         <div class="d-flex align-items-center">
             <div class="identity-left">
@@ -52,9 +52,9 @@
             <img class="w-25" src="../img/welcome-image3.png" alt="">
         </div>
     </div>
-</div>
+</section>
 
-<div id="home-programs">
+<section id="home-programs">
     <div class="text-section-title text-center">Our Programs</div>
 
     <div class="program d-flex">
@@ -148,14 +148,14 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="home-updates">
+<section id="home-updates">
     <div class="text-section-title text-center">Our Updates</div>
 
-</div>
+</section>
 
-<div id="home-gallery">
+<section id="home-gallery">
     <div class="bg-dark p-5 d-flex align-items-center justify-content-center">
         
             <div class="text-center text-light">
@@ -169,5 +169,5 @@
             </div>
         
     </div>
-</div>
+</section>
 @endsection
