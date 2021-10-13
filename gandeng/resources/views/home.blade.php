@@ -154,26 +154,29 @@
 <section id="home-updates">
     <div class="text-section-title text-center">Our Updates</div>
     
-    <div class="container row">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div class="p-5">
+       <div class="container">
+        <div class="custom-container d-flex justify-content-center">
+            <div class="custom-card me-5">
+                    <img class="text-center card-image"src="../img/postig.png" alt="">
+                <div class="card-text">
+                    <div class="text-sub-section-title">Judul</div>
+                    <p class="text-content-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facere?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, temporibus.</p>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="{{ asset('img/welcome-image1.png') }}" class="card-img-top w-25" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="custom-card ms-5">
+                <img class="text-center card-image"src="../img/welcome-image6.png" alt="">
+            <div class="card-text">
+                <div class="text-sub-section-title">Judul</div>
+                <p class="text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facere?</p>
             </div>
-          </div>
         </div>
+        </div>
+    </div> 
     </div>
+    
+    
+    
 </section>
 
 <section id="home-gallery">
@@ -191,4 +194,5 @@
         
     </div>
 </section>
+
 @endsection
