@@ -14,7 +14,7 @@ class CreateExperiencesTable extends Migration
     public function up()
     {
         Schema::create('experiences', function (Blueprint $table) {
-            $table->increments('experience_id')->primary();
+            $table->increments('experience_id');
             $table->unsignedInteger('person_id');
             $table->unsignedInteger('company_id');
             $table->string('job_title', 50);

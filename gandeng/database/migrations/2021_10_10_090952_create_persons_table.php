@@ -14,7 +14,7 @@ class CreatePersonsTable extends Migration
     public function up()
     {
         Schema::create('persons', function (Blueprint $table) {
-            $table->increments('person_id')->primary();
+            $table->increments('person_id');
             $table->string('name', 50);
             $table->string('nickname', 50)->nullable();
             $table->binary('gender');
