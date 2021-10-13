@@ -1,6 +1,12 @@
 @extends('layouts.main')
 
 @section('content')
+<script defer>
+    $('.carousel').carousel({
+        pause: "false"
+    });
+</script>
+
 <section id="home-carousel">
     {{-- Carousel images will be taken from database --}}
     <div id="carousel-slides" class="carousel slide" data-bs-ride="carousel">

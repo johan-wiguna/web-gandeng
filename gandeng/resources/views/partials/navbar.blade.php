@@ -1,9 +1,3 @@
-<script defer>
-    $('.carousel').carousel({
-        pause: "false"
-    });
-</script>
-
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top font-montserrat px-2">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
