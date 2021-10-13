@@ -152,19 +152,20 @@
 
 <div id="home-updates">
     <div class="text-section-title text-center">Our Updates</div>
+
 </div>
 
 <div id="home-gallery">
-    <div class="bg-dark p-5 d-flex align-items-center">
+    <div class="bg-dark p-5 d-flex align-items-center justify-content-center">
         
-            <div class="col1 d-block text-center text-light">
-                <div class="text-section-title mb-2">Meet the team</div>
+            <div class="text-center text-light">
+                <div class="text-section-title mt-0">Meet the team</div>
                 <div class="text-content-light mb-5">If you're curious to know more about the people of Gandeng, check out our gallery to acknowledge us better!</div>
                 
-                <a class="btn-primary-round" href="/gallery">Go to Gallery</a>
+                <button class="btn-primary-round" onclick="location.href='/gallery';">Go to Gallery</button>
             </div>
-            <div class="col2 d-flex justify-content-center">
-                <img class="w-75 align-items-center" src="../img/zoom.png" alt="">
+            <div class="d-flex justify-content-center">
+                <img class="w-75" src="../img/zoom.png" alt="">
             </div>
         
     </div>
