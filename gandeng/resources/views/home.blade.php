@@ -161,7 +161,7 @@
     <div class="p-5">
        <div class="container">
             <div class="custom-container d-flex justify-content-center">
-                <div class="custom-card mx-3">
+                <div class="custom-card">
                     <div class="card-image">
                         <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
                     </div>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="custom-card mx-3">
+                <div class="custom-card">
                     <div class="card-image">
                         <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
                     </div>
