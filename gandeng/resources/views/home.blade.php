@@ -18,13 +18,13 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../img/welcome-image6.png" class="d-block" alt="...">
+                <img src="../img/sample-image-1.jpg" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../img/welcome-image5.png" class="d-block" alt="...">
+                <img src="../img/sample-image-2.jpg" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../img/welcome-image2.png" class="d-block" alt="...">
+                <img src="../img/sample-image-3.jpg" class="d-block" alt="...">
             </div>
         </div>
 
@@ -50,7 +50,7 @@
                 </p>
             </div>
             
-            <img class="w-25" src="../img/welcome-image3.png" alt="">
+            <img class="w-25" src="../img/sample-image-4.jpg" alt="">
         </div>
     </div>
 </section>
@@ -58,7 +58,7 @@
 <section id="home-programs">
     <div class="text-section-title text-center">Our Programs</div>
 
-    <div class="program d-flex">
+    <div class="program d-flex" onclick="location.href='/g-academia/';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-academia-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div class="program d-flex">
+    <div class="program d-flex" onclick="location.href='/g-consulting/';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-consulting-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <div class="program d-flex">
+    <div class="program d-flex" onclick="location.href='/g-incubation/';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-incubation-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    <div class="program d-flex">
+    <div class="program d-flex" onclick="location.href='/mentor-hub/';">
         <div class="col1 d-block text-center bg-white">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/mentor-hub-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -153,24 +153,29 @@
 
 <section id="home-updates">
     <div class="text-section-title text-center">Our Updates</div>
+
+    <div class="text-sub-section-title text-center">Our Instagram</div>
+    <p class="text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
     
+    <div class="text-sub-section-title text-center">Upcoming Events</div>
     <div class="p-5">
        <div class="container">
-        <div class="custom-container d-flex justify-content-center">
-            <div class="custom-card me-5">
-                    <img class="text-center card-image"src="../img/postig.png" alt="">
-                <div class="card-text">
-                    <div class="text-sub-section-title">Judul</div>
-                    <p class="text-content-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facere?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, temporibus.</p>
+            <div class="custom-container d-flex justify-content-center">
+                <div class="custom-card mx-3">
+                        <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <div class="card-text p-4">
+                        <div class="text-sub-section-title">Event Title</div>
+                        <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+                    </div>
+                </div>
+
+                <div class="custom-card mx-3">
+                    <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
+                <div class="card-text p-4">
+                    <div class="text-sub-section-title">Event Title</div>
+                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
                 </div>
             </div>
-            <div class="custom-card ms-5">
-                <img class="text-center card-image"src="../img/welcome-image6.png" alt="">
-            <div class="card-text">
-                <div class="text-sub-section-title">Judul</div>
-                <p class="text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, facere?</p>
-            </div>
-        </div>
         </div>
     </div> 
     </div>
@@ -186,10 +191,10 @@
                 <div class="text-section-title mt-0">Meet the team</div>
                 <div class="text-content-light mb-5">Meet our hardworking and dedicated team behing Gandeng Foundation through our gallery to know us deeper!</div>
                 
-                <button class="btn-primary-round" onclick="location.href='/gallery';">Go to Gallery</button>
+                <button class="btn-primary-round" onclick="location.href='/gallery/';">Go to Gallery</button>
             </div>
             <div class="d-flex justify-content-center">
-                <img class="w-75" src="../img/zoom.png" alt="">
+                <img class="w-75" src="../img/zoom.jpg" alt="">
             </div>
         
     </div>

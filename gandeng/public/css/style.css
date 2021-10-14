@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6{
 /* carousel */
 .carousel-inner img{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     object-fit: cover;
 }   
 
@@ -151,11 +151,16 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #home-programs .program {
+    cursor: pointer;
     margin: 16px 3%;
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
     background-color: white;
+}
+
+#home-programs .program:hover {
+    transform: scale(1.02);
 }
 
 #home-programs .col1,.col2,.col3{
@@ -198,7 +203,6 @@ h1,h2,h3,h4,h5,h6{
     width: 500px;
     max-height: 200px;
     object-fit: contain;
-    margin-bottom: 5%;
 }
 /* home-gallery */
 
