@@ -162,22 +162,31 @@
        <div class="container">
             <div class="custom-container d-flex justify-content-center">
                 <div class="custom-card mx-3">
+                    <div class="card-image">
                         <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
-                    <div class="card-text p-4">
+                    </div>
+                    
+                    <div class="card-content p-4">
                         <div class="text-sub-section-title">Event Title</div>
                         <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+
+                        <button class="btn-primary-rect mt-4" onclick="location.href='/event/';">Read More</button>
                     </div>
                 </div>
 
                 <div class="custom-card mx-3">
-                    <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
-                <div class="card-text p-4">
-                    <div class="text-sub-section-title">Event Title</div>
-                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+                    <div class="card-image">
+                        <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
+                    </div>
+                    <div class="card-content p-4">
+                        <div class="text-sub-section-title">Event Title</div>
+                        <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+
+                        <button class="btn-primary-rect mt-4" onclick="location.href='/event/';">Read More <i class></i></button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div> 
+        </div> 
     </div>
     
     

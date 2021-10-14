@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
  
 /* HOME PAGE */
 /* carousel */
-.carousel-inner img{
+.carousel-inner img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -141,12 +141,12 @@ h1,h2,h3,h4,h5,h6{
 
 /* home-gandeng-identity */
 
-#home-gandeng-identity .body img{
+#home-gandeng-identity .body img {
     height: 200px;
 }
 /* home-programs */
 
-#home-programs h2{
+#home-programs h2 {
     margin: 0px;
 }
 
@@ -163,45 +163,46 @@ h1,h2,h3,h4,h5,h6{
     transform: scale(1.02);
 }
 
-#home-programs .col1,.col2,.col3{
+#home-programs .col1,.col2,.col3 {
     padding: 2%;
 }
 
-#home-programs .col1{
+#home-programs .col1 {
     flex : 1;
     border-radius: 12px 0 0 12px;
     align-self: center;
 }
 
-#home-programs .col2{
+#home-programs .col2 {
     flex : 1;
 }
 
-#home-programs .col3{
+#home-programs .col3 {
     flex : 1;
     border-radius: 0 12px 12px 0;
 }
 
-#home-programs .col1 img{
+#home-programs .col1 img {
     margin-bottom: 10%;
 }
 
 /* home-updates */
 
-#home-updates .custom-card{
-    max-height: 400px;
-    max-width: 500px;
+#home-updates .custom-card {
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 0 2% 2% 2%;
+    /* margin: 0 2% 2% 2%; */
 }
 
+#home-updates .card-image {
+    width: 100%;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    background-color: #757575;
+}
 
-
-#home-updates img{
-    border-radius: 12px;
-    width: 500px;
-    max-height: 200px;
+#home-updates img {
+    max-height: 360px;
     object-fit: contain;
 }
 /* home-gallery */
