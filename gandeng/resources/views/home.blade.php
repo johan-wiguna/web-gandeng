@@ -167,8 +167,9 @@
                 </div>
                 
                 <div class="card-content p-4">
-                    <div class="text-sub-section-title">Event Title</div>
-                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+                    <div class="event-title text-sub-section-title">Event Title</div>
+                    <div class="event-guest">Special Guest: <b>Lorem Ipsum</b></div>
+                    <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
 
                     <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More</button>
                 </div>
@@ -179,8 +180,9 @@
                     <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
                 </div>
                 <div class="card-content p-4">
-                    <div class="text-sub-section-title">Event Title</div>
-                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+                    <div class="event-title text-sub-section-title">Event Title</div>
+                    <div class="event-guest">&nbsp;</div>
+                    <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
 
                     <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More<i class></i></button>
                 </div>
@@ -216,7 +218,7 @@
     <div class="bg-yellow text-center p-5">
         <div class="text-section-title">Our Partners</div>
         <div class="text-sub-section-title">You can be our partner, too!</div>
-        <p class="text-content-light">If you're interested in building a partnership with us, do not hesitate to register by clicking the button below.</p>
+        <p class="text-content-regular">If you're interested in building a partnership with us, do not hesitate to register by clicking the button below.</p>
 
         <button class="btn-dark-round mt-3" onclick="location.href='/partnership';">Register Now</button>
     </div>
