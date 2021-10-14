@@ -18,13 +18,14 @@
     font-weight: bolder;
     font-size: 36px;
     text-transform: uppercase;
-    margin: 16px 0;
+    padding: 16px 0;
 }
 
 .text-sub-section-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
+    padding: 8px 0;
 }
 
 .text-content-regular {
