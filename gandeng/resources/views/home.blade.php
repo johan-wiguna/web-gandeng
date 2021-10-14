@@ -58,7 +58,7 @@
 <section id="home-programs">
     <div class="text-section-title text-center">Our Programs</div>
 
-    <div class="program d-flex" onclick="location.href='/g-academia/';">
+    <div class="program d-flex" onclick="location.href='/g-academia';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-academia-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div class="program d-flex" onclick="location.href='/g-consulting/';">
+    <div class="program d-flex" onclick="location.href='/g-consulting';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-consulting-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <div class="program d-flex" onclick="location.href='/g-incubation/';">
+    <div class="program d-flex" onclick="location.href='/g-incubation';">
         <div class="col1 d-block text-center">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/g-incubation-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    <div class="program d-flex" onclick="location.href='/mentor-hub/';">
+    <div class="program d-flex" onclick="location.href='/mentor-hub';">
         <div class="col1 d-block text-center bg-white">
             <img class="w-50 align-middle" src="{{ asset('img/gandeng-logos/mentor-hub-logotype.png') }}" alt="">
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -155,38 +155,41 @@
     <div class="text-section-title text-center">Our Updates</div>
 
     <div class="text-sub-section-title text-center">Our Instagram</div>
-    <p class="text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
+    <p class="text-content-regular text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
     
     <div class="text-sub-section-title text-center">Upcoming Events</div>
-    <div class="p-5">
-       <div class="container">
-            <div class="custom-container d-flex justify-content-center">
-                <div class="custom-card">
-                    <div class="card-image">
-                        <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
-                    </div>
-                    
-                    <div class="card-content p-4">
-                        <div class="text-sub-section-title">Event Title</div>
-                        <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
-
-                        <button class="btn-primary-rect mt-4" onclick="location.href='/event/';">Read More</button>
-                    </div>
+    <p class="text-content-regular text-center">Here are some of our upcoming events at Gandeng Foundation. If you're interested, be sure to add it to your calendar so you don't miss it!</p>
+    <div class="container p-5">
+       <div class="d-flex justify-content-center">
+            <div class="custom-card">
+                <div class="card-image">
+                    <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
                 </div>
+                
+                <div class="card-content p-4">
+                    <div class="text-sub-section-title">Event Title</div>
+                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
 
-                <div class="custom-card">
-                    <div class="card-image">
-                        <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
-                    </div>
-                    <div class="card-content p-4">
-                        <div class="text-sub-section-title">Event Title</div>
-                        <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
-
-                        <button class="btn-primary-rect mt-4" onclick="location.href='/event/';">Read More <i class></i></button>
-                    </div>
+                    <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More</button>
                 </div>
             </div>
-        </div> 
+
+            <div class="custom-card">
+                <div class="card-image">
+                    <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
+                </div>
+                <div class="card-content p-4">
+                    <div class="text-sub-section-title">Event Title</div>
+                    <p class="text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+
+                    <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More<i class></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="/events">See more upcoming events <i class="fas fa-angle-double-right fa-xs"></i></a>
+        </div>
     </div>
     
     
@@ -196,16 +199,26 @@
 <section id="home-gallery">
     <div class="bg-dark p-5 d-flex align-items-center justify-content-center">
         
-            <div class="text-center text-light">
-                <div class="text-section-title mt-0">Meet the team</div>
+            <div class="text-center text-light mx-2">
+                <div class="text-section-title">Meet the team</div>
                 <div class="text-content-light mb-5">Meet our hardworking and dedicated team behing Gandeng Foundation through our gallery to know us deeper!</div>
                 
                 <button class="btn-primary-round" onclick="location.href='/gallery/';">Go to Gallery</button>
             </div>
-            <div class="d-flex justify-content-center">
-                <img class="w-75" src="../img/zoom.jpg" alt="">
+            <div class="d-flex justify-content-center mx-2">
+                <img src="../img/zoom.png" alt="">
             </div>
         
+    </div>
+</section>
+
+<section id="home-partners">
+    <div class="bg-yellow text-center p-5">
+        <div class="text-section-title">Our Partners</div>
+        <div class="text-sub-section-title">You can be our partner, too!</div>
+        <p class="text-content-light">If you're interested in building a partnership with us, do not hesitate to register by clicking the button below.</p>
+
+        <button class="btn-dark-round mt-3" onclick="location.href='/partnership';">Register Now</button>
     </div>
 </section>
 
