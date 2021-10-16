@@ -54,14 +54,14 @@
                 <br>
                 <input class="w-100 mb-2" type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email here...">
                 
-                <button class="btn-rect bg-yellow" type="submit">Subscribe</button>
+                <button class="btn-primary-rect" type="submit">Subscribe</button>
             </form>
         </div>
     </div>
 
     <div class="d-flex align-items-center justify-content-between">
         <div id="footer-logo">
-            <img src="{{ url('img/gandeng-logotype-light.png') }}" alt="">
+            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light.png') }}" alt="">
         </div>
         
         <div id="footer-tagline" class="font-montserrat text-center"><b>#GandengSetaraTumbuhBersama</b></div>

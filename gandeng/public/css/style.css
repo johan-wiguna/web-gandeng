@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* TEMPLATES */
 
+/* fonts */
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,10 +12,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* texts */
 .text-section-title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: bolder;
+    font-size: 36px;
     text-transform: uppercase;
+    padding: 16px 0;
+}
+
+.text-sub-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.text-content-regular {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-content-light {
@@ -34,8 +48,9 @@
     color: #111111 !important;
 }
 
+/* backgrounds */
 .bg-dark {
-    background-color: #111111;
+    background-color: #111111 !important;
 }
 
 .bg-yellow {
@@ -54,29 +69,82 @@
     background-color: #9CE8C4;
 }
 
-.btn-rect {
+
+/* buttons */
+.btn-primary-rect {
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 4px;
-    padding: 6px 16px;
-    font-family: 'Montserrat', sans-serif;
+    padding: 6px 18px;
+    background-color: #FCD12A;
+    color: #111111;
+    text-decoration: none;
+    transition: 0.3s all ease;
 }
 
-.btn-rounded {
+.btn-primary-round {
+    font-family: 'Montserrat', sans-serif;
     border: none;
-    border-radius: 50%;
-    font-family: 'Montserrat', sans-serif;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background-color: #FCD12A;
+    color: #111111;
+    text-decoration: none;
+    transition: 0.3s all ease;
 }
 
+.btn-primary-rect:hover, .btn-primary-round:hover {
+    background-color: #dbb724;
+    color: #111111;
+}
+
+.btn-dark-rect {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 18px;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-dark-round {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-dark-rect:hover, .btn-dark-round:hover {
+    background-color: #242424;
+    color: white;
+}
+
+/* elements override */
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    background-color: #F9F9F9;
 }
 
 p {
     margin: 0;
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+
+/* navigation bar */
 .navbar {
     background-color: #252525 !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
 .nav-link {
@@ -98,7 +166,7 @@ p {
 
 .carousel-inner img {
     width: 100%;
-    height: 500px;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -109,6 +177,9 @@ p {
     height: 200px;
 }
 
+#home-programs h2 {
+    margin: 0px;
+}
 
 /* home-programs */
 
@@ -123,6 +194,65 @@ p {
 .col3 {
     flex: 1;
 }
+#home-programs .program {
+    cursor: pointer;
+    margin: 16px 3%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    background-color: white;
+}
+
+#home-programs .program:hover {
+    transform: scale(1.02);
+}
+
+#home-programs .col1,.col2,.col3 {
+    padding: 2%;
+}
+
+#home-programs .col1 {
+    flex : 1;
+    border-radius: 12px 0 0 12px;
+    align-self: center;
+}
+
+#home-programs .col2 {
+    flex : 1;
+}
+
+#home-programs .col3 {
+    flex : 1;
+    border-radius: 0 12px 12px 0;
+}
+
+#home-programs .col1 img {
+    margin-bottom: 10%;
+}
+
+/* home-updates */
+
+#home-updates .custom-card {
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 3%;
+}
+
+#home-updates .card-image {
+    width: 100%;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    background-color: #757575;
+}
+
+#home-updates img {
+    max-height: 360px;
+    object-fit: contain;
+}
+/* home-gallery */
+
+
+/* home-partners */
 
 
 /* FOOTER */
@@ -218,4 +348,19 @@ footer input {
 
 .cp-image-left {
     margin-right: 2%;
+}
+
+@media all and (min-width: 992px) {
+    /* Make navbar dropdown links triggered on hover */
+	.navbar .nav-item .dropdown-menu{
+        display: none;
+    }
+
+	.navbar .nav-item:hover .dropdown-menu{
+        display: block;
+    }
+
+	.navbar .nav-item .dropdown-menu{
+        margin-top:0;
+    }
 }
