@@ -183,17 +183,6 @@ h1,h2,h3,h4,h5,h6{
 
 /* home-programs */
 
-.col1 {
-    flex: 1;
-}
-
-.col2 {
-    flex: 1;
-}
-
-.col3 {
-    flex: 1;
-}
 #home-programs .program {
     cursor: pointer;
     margin: 16px 3%;
@@ -322,6 +311,8 @@ footer input {
     color: rgb(124, 124, 124);
 }
 
+/* about */
+
 .about-container p,
 .about-container img {
     margin-bottom: 30px;
@@ -349,6 +340,40 @@ footer input {
 .cp-image-left {
     margin-right: 2%;
 }
+
+/* about-vision */
+
+.about-vision img{
+    max-height: 200px;
+    border-radius: 12px;
+}
+
+.about-vision {
+    padding: 0 48px 48px 48px;
+}
+
+/* about-mission */
+#about-vision-mission .col1 {
+    flex: 1;
+}
+
+#about-vision-mission .col2 {
+    flex: 1;
+}
+
+#about-vision-mission .col3 {
+    flex: 1;
+}
+
+#about-vision-mission .col1,.col2,.col3 {
+    padding: 2%;
+}
+
+#about-vision-mission img{
+    margin-bottom: 10%;
+}
+
+
 
 @media all and (min-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
