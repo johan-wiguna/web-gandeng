@@ -2,6 +2,7 @@
 
 @section('content')
 @include('partials.about')
+
 <div id="people-gandeng-main">
     <div class="bg-white p-5">
         <div class="container">
@@ -41,7 +42,7 @@
                 </div>
             </div>
 
-            <div class="text-center about-container">
+            {{-- <div class="text-center about-container">
                 <p class="text-center text-content-light pb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus assumenda expedita natus officiis est hic in eos similique cum totam dolore inventore, facilis fugit saepe? Fugiat a assumenda harum vitae quibusdam minus distinctio ullam nesciunt, officia qui mollitia vel velit, ratione culpa, modi necessitatibus? Maiores earum esse quasi, nesciunt illum illo assumenda laborum quis. Cumque ab deleniti dolore accusantium nostrum itaque numquam iure vero enim, aliquam beatae alias officia blanditiis dolorem voluptate nisi tempora, culpa dolores repellat at? Rerum, placeat fugit assumenda vero omnis in minus voluptate eligendi repudiandae. Tenetur, ipsam. Quae iste aspernatur debitis fugit necessitatibus esse voluptatibus rerum?</p>
 
                 <img class="w-25" src="../img/gandeng-logogram.png" alt="">
@@ -59,8 +60,9 @@
                         <a href="#" class="text-dark">People Behind Gandeng</a>
                     </li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
+
 @endsection

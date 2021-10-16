@@ -1,6 +1,3 @@
-@extends('layouts.main')
-
-@section('content')
 <div id="about-gandeng-main">
     <div class="bg-white p-5">
         <div class="container">
@@ -28,5 +25,3 @@
         </div>
     </div>
 </div>
-
-@endsection
