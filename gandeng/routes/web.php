@@ -20,8 +20,16 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/about', function () {
-    return view('about', [
+Route::redirect('/about', '/about/story');
+
+Route::get('/about/story', function () {
+    return view('about-story', [
+        "title" => "About Us"
+    ]);
+});
+
+Route::get('/about/vision-mission', function () {
+    return view('about-vision-mission', [
         "title" => "About Us"
     ]);
 });

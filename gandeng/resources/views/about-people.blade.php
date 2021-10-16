@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+@include('partials.about')
 <div id="people-gandeng-main">
     <div class="bg-white p-5">
         <div class="container">

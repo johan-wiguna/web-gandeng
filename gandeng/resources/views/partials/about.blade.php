@@ -15,13 +15,13 @@
 
                 <ul class="d-flex align-items-center justify-content-center">
                     <li>
-                        <a href="#" class="text-dark">Our Story</a>
+                        <a href="/about/story" class="text-dark">Our Story</a>
                     </li>
                     <li id="border-link">
-                        <a href="#" class="text-dark">Vision & Mission</a>
+                        <a href="/about/vision-mission" class="text-dark">Vision & Mission</a>
                     </li>
                     <li>
-                        <a href="#" class="text-dark">People Behind Gandeng</a>
+                        <a href="/about/people" class="text-dark">People Behind Gandeng</a>
                     </li>
                 </ul>
             </div>
