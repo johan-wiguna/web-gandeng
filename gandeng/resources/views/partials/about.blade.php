@@ -3,9 +3,9 @@
         <div class="text-section-title text-center">About Us</div>
 
         <div class="text-center about-container">
-            <p class="text-center text-content-light pb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus assumenda expedita natus officiis est hic in eos similique cum totam dolore inventore, facilis fugit saepe? Fugiat a assumenda harum vitae quibusdam minus distinctio ullam nesciunt, officia qui mollitia vel velit, ratione culpa, modi necessitatibus? Maiores earum esse quasi, nesciunt illum illo assumenda laborum quis. Cumque ab deleniti dolore accusantium nostrum itaque numquam iure vero enim, aliquam beatae alias officia blanditiis dolorem voluptate nisi tempora, culpa dolores repellat at? Rerum, placeat fugit assumenda vero omnis in minus voluptate eligendi repudiandae. Tenetur, ipsam. Quae iste aspernatur debitis fugit necessitatibus esse voluptatibus rerum?</p>
+            <p class="text-center text-content-light pb-0">(G)andeng Foundation is a social platform with a vision to build a <b>synergized ecosystem</b> to <b>improve the soft skill education for high school and college students,</b> as well as becoming a catalyst for youth-led social enterprises and NGOs.</p>
 
-            <img class="w-25 my-5" src="../img/gandeng-logogram.png" alt="">
+            <img class="w-25 my-5" src="{{ asset("/img/gandeng-logos/gandeng-logogram.png") }}" alt="">
 
             <div class="fs-5 fw-bold mb-3 lspace-3">KNOW US BETTER</div>
 
