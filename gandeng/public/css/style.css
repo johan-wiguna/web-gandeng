@@ -52,6 +52,10 @@
     letter-spacing: 3px;
 }
 
+.low-highlight {
+    background: linear-gradient(to top, #FCD12A 40%, transparent 40%);
+}
+
 /* backgrounds */
 .bg-dark {
     background-color: #111111 !important;
