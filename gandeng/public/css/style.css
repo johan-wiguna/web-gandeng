@@ -335,31 +335,31 @@ footer input {
     flex: 1;
 }
 
+/* about story */
+
+#about-logo img {
+    max-width: 240px;
+    border-right: 1px solid #363636;
+    padding-right: 3%;
+}
+
+#about-logo .explanation {
+    padding-left: 3%;
+}
+
 .cp-image-left {
     margin-right: 2%;
 }
 
-/* about-vision */
+/* about vision-mission */
 
 .about-vision img{
     max-height: 200px;
     border-radius: 12px;
 }
 
-/* about-mission */
-#about-vision-mission .col1 {
+#about-vision-mission .col {
     flex: 1;
-}
-
-#about-vision-mission .col2 {
-    flex: 1;
-}
-
-#about-vision-mission .col3 {
-    flex: 1;
-}
-
-#about-vision-mission .col1,.col2,.col3 {
     padding: 2%;
 }
 
