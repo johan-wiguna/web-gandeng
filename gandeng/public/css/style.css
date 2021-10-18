@@ -177,6 +177,10 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 4px !important;
 }
 
+.navbar-brand img {
+    width: 100px;
+}
+
 .nav-link {
     text-decoration: none;
     color: white !important;
@@ -212,6 +216,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* home-programs */
+
+#home-programs h2 {
+    margin: 0px;
+}
 
 #home-programs .program {
     cursor: pointer;
@@ -306,10 +314,6 @@ footer input {
 
 #footer-logo {
     flex: 1;
-}
-
-#footer-logo img {
-    width: 160px;
 }
 
 #footer-tagline {

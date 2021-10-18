@@ -6,7 +6,7 @@
                 <ul class="footer-nav-links">
                     <li><a href="/about/our-story">Our Story</a></li>
                     <li><a href="/about/vision-mission">Vision & Mission</a></li>
-                    <li><a href="/about/people">People Behind Gandeng</a></li>
+                    <li><a href="/about/founders">Founders</a></li>
                 </ul>
             </div>
 
@@ -61,7 +61,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
         <div id="footer-logo">
-            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light.png') }}" alt="">
+            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light-small.png') }}" alt="Gandeng">
         </div>
         
         <div id="footer-tagline" class="font-montserrat text-center"><b>#GandengSetaraTumbuhBersama</b></div>
