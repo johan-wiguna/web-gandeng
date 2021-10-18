@@ -34,8 +34,8 @@ Route::get('/about/vision-mission', function () {
     ]);
 });
 
-Route::get('/about/people', function () {
-    return view('about-people', [
+Route::get('/about/founders', function () {
+    return view('about-founders', [
         "title" => "About Us"
     ]);
 });
