@@ -6,7 +6,7 @@
 <div id="people-gandeng-main">
     <div class="container">
         <div class="text-section-title text-center pb-2">Founders of Gandeng</div>
-        <p class="text-content-regular-l text-center">Here are the founders of Gandeng Foundation.</p>
+        <p class="text-content-regular-l text-center mb-5">Here are the founders of Gandeng Foundation.</p>
 
         <div id="people-gandeng-identity">
             <div class="container">
