@@ -144,6 +144,57 @@
     color: white;
 }
 
+.btn-g-ac-round {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background-color: #dd6dcf;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-g-ac-round:hover {
+    background-color: #bc51b5;
+    color: #f9f9f9;
+}
+
+.btn-g-inc-round {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background-color: #65c097;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-g-inc-round:hover {
+    background-color: #509373;
+    color: #f9f9f9;
+}
+
+.btn-g-con-round {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background-color: #437fdf;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-g-con-round:hover {
+    background-color: #3360a0;
+    color: #f9f9f9;
+}
+
 /* custom card */
 .cst-card {
     border-radius: 12px;
@@ -395,6 +446,23 @@ footer input {
     margin-bottom: 10%;
 }
 
+/* programs page */
+
+/* programs-ourprograms */
+
+#programs-ourprograms .gradient{
+    background: rgb(188,81,181);
+background: linear-gradient(90deg, rgba(188,81,181,1) 0%, rgba(51,96,160,1) 50%, rgba(80,147,115,1) 100%);
+}
+
+#programs-page .col {
+    flex: 1;
+    padding: 2%;
+}
+
+#programs-page .programs img,p{
+    margin-bottom: 5%;
+}
 
 
 @media all and (min-width: 992px) {

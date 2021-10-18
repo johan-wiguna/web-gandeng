@@ -45,3 +45,9 @@ Route::get('/departments', function () {
         "title" => "Departments"
     ]);
 });
+
+Route::get('/programs', function () {
+    return view('programs', [
+        "title" => "Programs"
+    ]);
+});
