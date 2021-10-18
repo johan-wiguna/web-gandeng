@@ -20,7 +20,7 @@
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                         <li><a class="dropdown-item" href="/about/story">Our Story</a></li>
                         <li><a class="dropdown-item" href="/about/vision-mission">Vision & Mission</a></li>
-                        <li><a class="dropdown-item" href="/about/people">People Behind Gandeng</a></li>
+                        <li><a class="dropdown-item" href="/about/founders">Founders</a></li>
                     </ul>
                 </li>
 
