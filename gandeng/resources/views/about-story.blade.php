@@ -22,31 +22,44 @@
 
 <section id="about-logo" class="p-5">
     <div class="container">
-        <div class="custom-card card-content">
+        <div class="cst-card cst-card-content">
             <div class="text-section-title text-center pt-0">The logo</div>
 
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="about-logotag-image">
-                <img src="{{ asset("img/gandeng-logos/gandeng-logogram.png") }}" alt="Gandeng logo">
-            </div>
-            
-            <div class="about-logotag-exp">
-                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The letter 'G'</div>
-                <div class="text-content-regular">Represents the initial of "Gandeng Foundation".</div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="about-logotag-image">
+                    <img src="{{ asset("img/gandeng-logos/gandeng-logogram.png") }}" alt="Gandeng logo">
+                </div>
+                
+                <div class="about-logotag-exp">
+                    <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The letter 'G'</div>
+                    <div class="text-content-regular">Represents the initial of "Gandeng Foundation".</div>
 
-                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">People holding hands</div>
-                <div class="text-content-regular">Represents the affection and supports that people of Gandeng give to each other.</div>
+                    <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">People holding hands</div>
+                    <div class="text-content-regular">Represents the affection and supports that people of Gandeng give to each other.</div>
 
-                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The lantern</div>
-                <div class="text-content-regular">Represents how the mentors will help guide their mentees, which the light will always follow whoever holds the lantern.</div>
+                    <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The lantern</div>
+                    <div class="text-content-regular">Represents how the mentors will help guide their mentees, which the light will always follow whoever holds the lantern.</div>
+                </div>
             </div>
         </div>
-        </div>
-        
     </div>
 </section>
 
 <section id="about-tagline" class="p-5">
-    
+    <div class="container">
+        <div class="cst-card cst-card-content">
+            <div class="text-section-title text-center pt-0">The tagline</div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="about-logotag-image">
+                    <img src="{{ asset("img/gandeng-logos/gandeng-tagline.png") }}" alt="Gandeng logo">
+                </div>
+                
+                <div class="about-logotag-exp">
+                    <div class="text-content-regular">Our simple yet meaningful tagline shows that we believe by joining our hands, we can illuminate and create a bigger impact to grow together as a strong organization.</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 @endsection
