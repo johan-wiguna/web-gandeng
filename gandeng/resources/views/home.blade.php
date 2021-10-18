@@ -161,12 +161,12 @@
     <p class="text-content-regular text-center">Here are some of our upcoming events at Gandeng Foundation. If you're interested, be sure to add it to your calendar so you don't miss it!</p>
     <div class="container p-5">
        <div class="d-flex justify-content-center">
-            <div class="custom-card">
-                <div class="card-image">
-                    <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
+            <div class="cst-card">
+                <div class="cst-card-image">
+                    <img class="text-center cst-card-image" src="{{ asset('img/sample-post.png') }}" alt="">
                 </div>
                 
-                <div class="card-content p-4">
+                <div class="cst-card-content">
                     <div class="event-title text-sub-section-title">Event Title</div>
                     <div class="event-guest">Special Guest: <b>Lorem Ipsum</b></div>
                     <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
@@ -175,11 +175,11 @@
                 </div>
             </div>
 
-            <div class="custom-card">
-                <div class="card-image">
-                    <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
+            <div class="cst-card">
+                <div class="cst-card-image">
+                    <img class="text-center cst-card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
                 </div>
-                <div class="card-content p-4">
+                <div class="cst-card-content">
                     <div class="event-title text-sub-section-title">Event Title</div>
                     <div class="event-guest">&nbsp;</div>
                     <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>

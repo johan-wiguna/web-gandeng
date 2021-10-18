@@ -22,7 +22,8 @@
 
 <section id="about-logo" class="p-5">
     <div class="container">
-        <div class="text-section-title text-center">The logo</div>
+        <div class="custom-card card-content">
+            <div class="text-section-title text-center pt-0">The logo</div>
 
         <div class="d-flex justify-content-center align-items-center">
             <div class="about-logotag-image">
@@ -40,6 +41,8 @@
                 <div class="text-content-regular">Represents how the mentors will help guide their mentees, which the light will always follow whoever holds the lantern.</div>
             </div>
         </div>
+        </div>
+        
     </div>
 </section>
 
