@@ -39,3 +39,9 @@ Route::get('/about/people', function () {
         "title" => "About Us"
     ]);
 });
+
+Route::get('/departments', function () {
+    return view('departments', [
+        "title" => "Departments"
+    ]);
+});
