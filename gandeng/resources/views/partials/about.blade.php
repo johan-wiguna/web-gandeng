@@ -17,7 +17,7 @@
                     <a href="/about/vision-mission" class="text-dark">Vision & Mission</a>
                 </li>
                 <li>
-                    <a href="/about/people" class="text-dark">People Behind Gandeng</a>
+                    <a href="/about/founders" class="text-dark">Founders</a>
                 </li>
             </ul>
         </div>
