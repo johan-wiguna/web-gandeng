@@ -2,7 +2,7 @@
 
 @section('content')
 @include('partials.about')
-<section id="about-journey" class="p-5">
+<section id="about-journey" class="mb-5">
     <div class="container">
         <div class="text-section-title text-center">The start of our journey</div>
 
@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<section id="about-logo" class="p-5">
+<section id="about-logo" class="mb-5">
     <div class="container">
         <div class="cst-card cst-card-content">
             <div class="text-section-title text-center pt-0">The logo</div>
@@ -45,7 +45,7 @@
     </div>
 </section>
 
-<section id="about-tagline" class="p-5">
+<section id="about-tagline" class="mb-5">
     <div class="container">
         <div class="cst-card cst-card-content">
             <div class="text-section-title text-center pt-0">The tagline</div>
