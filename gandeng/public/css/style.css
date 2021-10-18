@@ -36,6 +36,17 @@
     font-weight: 300;
 }
 
+.text-content-regular-l {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.text-content-light-l {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -337,14 +348,26 @@ footer input {
 
 /* about story */
 
-#about-logo img {
+/* #about-logo img {
     max-width: 240px;
     border-right: 1px solid #363636;
     padding-right: 3%;
+} */
+
+.about-logotag-image {
+    width: fit-content;
+    flex: 1;
+    border-right: 1px solid #363636;
+    text-align: center;
 }
 
-#about-logo .explanation {
-    padding-left: 3%;
+.about-logotag-image img {
+    max-width: 240px;
+}
+
+.about-logotag-exp {
+    flex: 3;
+    padding-left: 2%;
 }
 
 .cp-image-left {

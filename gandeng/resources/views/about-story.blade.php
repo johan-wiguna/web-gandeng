@@ -6,17 +6,17 @@
     <div class="container">
         <div class="text-section-title text-center">The start of our journey</div>
 
-        <p class="text-content-regular text-center fs-5">It all started because our founders observed that there was a lack of systematic approach in soft-skill education for children in Indonesia, along with numerous social initiatives, NGO, and social enterprises who find it difficult to be sustainable, for example because of the lack of funding or human resource management strategy.</p>
+        <p class="text-content-regular-l text-center">It all started because our founders observed that there was a lack of systematic approach in soft-skill education for children in Indonesia, along with numerous social initiatives, NGO, and social enterprises who find it difficult to be sustainable, for example because of the lack of funding or human resource management strategy.</p>
         <br>
         <hr>
         <br>
-        <p class="text-content-regular text-center fs-5">One time, when one of our founders was mentoring a 12-year-old &#8211; trained in soft-skill and hard-skill education, a <b>simple question</b> was raised by her:</p>
+        <p class="text-content-regular-l text-center">One time, when one of our founders was mentoring a 12-year-old &#8211; trained in soft-skill and hard-skill education, a <b>simple question</b> was raised by her:</p>
         <br>
         <div class="text-center">
             <q class="low-highlight font-montserrat fw-bold fs-3">Why don't you make this for other children?</q>
         </div>
         <br>
-        <p class="text-center fs-5">From that, our founders felt the need to step in and make an ecosystem called <q><b>(G)andeng Foundation</b></q> to help the development of students and early social enterprise/NGO.</p>
+        <p class="text-content-regular-l text-center">From that, our founders felt the need to step in and make an ecosystem called <q><b>(G)andeng Foundation</b></q> to help the development of students and early social enterprise/NGO.</p>
     </div>
 </section>
 
@@ -25,18 +25,25 @@
         <div class="text-section-title text-center">The logo</div>
 
         <div class="d-flex justify-content-center align-items-center">
-            <img src="{{ asset("img/gandeng-logos/gandeng-logogram.png") }}" alt="Gandeng logo">
-            <div class="explanation">
-                <div class="fs-5 fw-bold font-montserrat text-capitalize">The letter 'G'</div>
+            <div class="about-logotag-image">
+                <img src="{{ asset("img/gandeng-logos/gandeng-logogram.png") }}" alt="Gandeng logo">
+            </div>
+            
+            <div class="about-logotag-exp">
+                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The letter 'G'</div>
                 <div class="text-content-regular">Represents the initial of "Gandeng Foundation".</div>
 
-                <div class="fs-5 fw-bold font-montserrat text-capitalize">People holding hands</div>
+                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">People holding hands</div>
                 <div class="text-content-regular">Represents the affection and supports that people of Gandeng give to each other.</div>
 
-                <div class="fs-5 fw-bold font-montserrat text-capitalize">The lantern</div>
+                <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The lantern</div>
                 <div class="text-content-regular">Represents how the mentors will help guide their mentees, which the light will always follow whoever holds the lantern.</div>
             </div>
         </div>
     </div>
+</section>
+
+<section id="about-tagline" class="p-5">
+    
 </section>
 @endsection
