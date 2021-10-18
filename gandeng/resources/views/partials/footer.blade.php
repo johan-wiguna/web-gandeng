@@ -6,7 +6,7 @@
                 <ul class="footer-nav-links">
                     <li><a href="/about/our-story">Our Story</a></li>
                     <li><a href="/about/vision-mission">Vision & Mission</a></li>
-                    <li><a href="/about/people">People Behind Gandeng</a></li>
+                    <li><a href="/about/founders">Founders</a></li>
                 </ul>
             </div>
 
