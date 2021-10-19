@@ -16,7 +16,7 @@
                 </li>
 
                 <li class="nav-item dropdown ms-2">
-                    <a class="nav-link dropdown-toggle" href="/about" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <a class="nav-link dropdown-toggle" href="/about" id="navbarScrollingDropdown">About Us</a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                         <li><a class="dropdown-item" href="/about/story">Our Story</a></li>
                         <li><a class="dropdown-item" href="/about/vision-mission">Vision & Mission</a></li>
@@ -25,7 +25,7 @@
                 </li>
 
                 <li class="nav-item dropdown ms-2">
-                    <a class="nav-link dropdown-toggle" href="/departments" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Departments</a>
+                    <a class="nav-link dropdown-toggle" href="/departments" id="navbarScrollingDropdown">Departments</a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                         <li><a class="dropdown-item" href="/departments/branding">Branding</a></li>
                         <li><a class="dropdown-item" href="/departments/operations">Operations</a></li>
@@ -34,7 +34,7 @@
                 </li>
 
                 <li class="nav-item dropdown ms-2">
-                    <a class="nav-link dropdown-toggle" href="/programs" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
+                    <a class="nav-link dropdown-toggle" href="/programs">Programs</a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                         <li><a class="dropdown-item" href="/programs/g-academia">G-Acadaemia</a></li>
                         <li><a class="dropdown-item" href="/programs/g-consulting">G-Consulting</a></li>
