@@ -297,7 +297,7 @@ footer input {
     font-size: 18px;
 }
 
-.footer-newsletter {
+#footer-newsletter {
     border-left: 1px solid rgb(80, 80, 80);
 }
 
@@ -305,23 +305,23 @@ footer input {
     color: rgb(124, 124, 124);
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #footer-upper {
+        display: block !important;
+    }
 
+    #footer-newsletter {
+        border-left: none;
+        border-top: 1px solid rgb(80, 80, 80);
+        padding: 12px 0 !important;
+    }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
 	.navbar .nav-item .dropdown-menu{
         display: none;
@@ -336,7 +336,12 @@ footer input {
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
+@media only screen and (max-width: 1200px) {
+    #footer-bottom {
+        flex-direction: column;
+    }
+
+    #footer-bottom div {
+        margin-bottom: 12px;
+    }
 }
