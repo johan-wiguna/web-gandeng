@@ -11,14 +11,14 @@
                 <p class="text-justify text-content-light pe-5 pb-0">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus assumenda expedita natus officiis est hic in eos similique cum totam dolore inventore, facilis fugit saepe? Fugiat a assumenda harum vitae quibusdam minus distinctio ullam nesciunt, officia qui molliti
             </div>
-            <img class="w-50" src="../img/sample-image-4.jpg" alt="">
+            <img class="w-50" src="../img/gandeng-logos/gandeng-logotype.png" alt="gandeng-programs">
         </div>
 
     </div>
 </section>
 <section class="synergy">
     <div class="container p-5 text-center">
-            <img class="w-75" src="../img/sample-image-4.jpg" alt="">
+            <img class="w-75" src="../img/sample-image-4.jpg" alt="synergy">
     </div>
 </section>
     
