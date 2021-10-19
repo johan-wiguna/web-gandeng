@@ -51,3 +51,9 @@ Route::get('/programs', function () {
         "title" => "Programs"
     ]);
 });
+
+Route::get('/partnership', function () {
+    return view('partnership', [
+        "title" => "partnership"
+    ]);
+});
