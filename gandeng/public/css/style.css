@@ -460,7 +460,7 @@ background: linear-gradient(90deg, rgba(188,81,181,1) 0%, rgba(51,96,160,1) 50%,
     padding: 2%;
 }
 
-#programs-page .programs img,p{
+#programs-page .programs img, #programs-page .programs p{
     margin-bottom: 5%;
 }
 
