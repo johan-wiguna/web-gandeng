@@ -64,7 +64,7 @@
             <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light-small.png') }}" alt="Gandeng">
         </div>
         
-        <div id="footer-tagline" class="font-montserrat text-center"><b>#GandengSetaraTumbuhBersama</b></div>
+        <div id="footer-tagline" class="font-montserrat text-center">#GandengSetaraTumbuhBersama</div>
 
         <div id="footer-socials" class="text-end">
             <a href="https://www.linkedin.com/company/gandengfoundation/" target="_blank"><i class="fab fa-linkedin fa-2x pe-2"></i></a>
