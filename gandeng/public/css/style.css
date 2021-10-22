@@ -473,6 +473,10 @@ background: linear-gradient(90deg, rgba(188,81,181,1) 0%, rgba(51,96,160,1) 50%,
     margin:24px 24px ;
 }
 
+#partnership-registration .box form {
+    border-radius: 12px;
+}
+
 @media all and (min-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
 	.navbar .nav-item .dropdown-menu{
