@@ -413,4 +413,9 @@ footer input {
     #footer-newsletter {
         border-left: none;
     }
+
+    .carousel-inner img {
+        width: 100vw;
+        height: auto !important;
+    }
 }
