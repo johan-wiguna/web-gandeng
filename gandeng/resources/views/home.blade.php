@@ -64,7 +64,7 @@
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gac-1">
-            <div class="text-sub-section-title text-center mb-3">Benefits</div>
+            <div class="text-sub-section-title text-center mb-3">Great Reasons to Join</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -87,7 +87,7 @@
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-gcon-1">
-            <div class="text-sub-section-title text-center mb-3">Benefits</div>
+            <div class="text-sub-section-title text-center mb-3">Great Reasons to Join</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -95,7 +95,7 @@
             </ul>
         </div>
         <div class="col3 bg-gcon-1">
-            <div class="text-sub-section-title text-center mb-3">Achievements</div>
+            <div class="text-sub-section-title text-center mb-3">Our Milestones</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -110,7 +110,7 @@
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-ginc-1">
-            <div class="text-sub-section-title text-center mb-3">Benefits</div>
+            <div class="text-sub-section-title text-center mb-3">Great Reasons to Join</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -118,7 +118,7 @@
             </ul>
         </div>
         <div class="col3 bg-ginc-1">
-            <div class="text-sub-section-title text-center mb-3">Achievements</div>
+            <div class="text-sub-section-title text-center mb-3">Our Milestones</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -133,7 +133,7 @@
             <p class="text-center text-content-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col2 bg-yellow">
-            <div class="text-sub-section-title text-center mb-3">Benefits</div>
+            <div class="text-sub-section-title text-center mb-3">Great Reasons to Join</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
@@ -141,7 +141,7 @@
             </ul>
         </div>
         <div class="col3 bg-yellow">
-            <div class="text-sub-section-title text-center mb-3">Achievements</div>
+            <div class="text-sub-section-title text-center mb-3">Our Milestones</div>
             <ul class="text-content-light">
                 <li>Benefit 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, minima!</li>
                 <li>Benefit 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet!</li>
