@@ -3,7 +3,8 @@
         <div class="text-section-title text-center">About Us</div>
 
         <div class="text-center about-container">
-            <p class="text-content-regular-l pb-0">(G)andeng Foundation is a social platform established in 2021, focusing on developing soft skills for high-school and college students and helping early social enterprises or NGOs.</p>
+            <p class="text-content-regular-l pb-0">(G)andeng Foundation, established in 2021, is an ecosystem consisting of three synergized pillars. These pillars are built to proliferate the social impact of future generations through empowerment for students by soft skill and nurture social leaders to scale up.
+            </p>
 
             <img class="w-25 my-5" src="{{ asset("/img/gandeng-logos/gandeng-logogram.png") }}" alt="">
 
