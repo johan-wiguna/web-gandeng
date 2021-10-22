@@ -18,7 +18,7 @@
     font-weight: bolder;
     font-size: 36px;
     text-transform: uppercase;
-    padding: 16px 0;
+    padding-bottom: 16px;
 }
 
 .text-sub-section-title {
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6{
 #home-updates .custom-card {
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 0 3%;
+    margin: 14px;
 }
 
 #home-updates .card-image {
@@ -333,12 +333,56 @@ footer input {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    #home-gandeng-identity {
+        text-align: center !important;
+    }
+
+    #home-gandeng-identity .d-flex {
+        flex-direction: column;
+    }
+
+    #home-gandeng-identity p {
+        padding: 0 !important;
+        margin-bottom: 12px;
+    }
+
+    #home-gandeng-identity img {
+        width: 100% !important;
+    }
+
+    #home-programs .program {
+        flex-direction: column;
+    }
+
+    #home-programs img {
+        margin: 12px !important;
+    }
+
+    #home-programs .program:hover {
+        transform: scale(1.01);
+    }
+
+    #home-programs .col3 {
+        border-radius: 0 0 12px 12px;
+    }
+
+    #home-gallery-container {
+        flex-direction: column-reverse;
+    }
+
+    #home-gallery-container img {
+        width: 100%;
+        margin-bottom: 14px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin-left: 0 !important;
+    }
+
+    #home-event-container {
+        flex-wrap: wrap;
     }
 }
 

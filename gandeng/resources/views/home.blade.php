@@ -40,12 +40,12 @@
     </div>
 </section>
 
-<section id="home-gandeng-identity" class="bg-yellow p-5">
-    <div class="container">
-        <div class="d-flex align-items-center">
+<section id="home-gandeng-identity" class="mb-4">
+    <div class="bg-yellow">
+        <div class="container py-4 d-flex align-items-center">
             <div class="identity-left">
-                <div class="text-section-title mb-4">Who are we?</div>
-                <p class="text-justify text-content-light pe-5 pb-0">
+                <div class="text-section-title">Who are we?</div>
+                <p class="text-content-light pe-5 pb-0">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus assumenda expedita natus officiis est hic in eos similique cum totam dolore inventore, facilis fugit saepe? Fugiat a assumenda harum vitae quibusdam minus distinctio ullam nesciunt, officia qui mollitia vel velit, ratione culpa, modi necessitatibus? Maiores earum esse quasi, nesciunt illum illo assumenda laborum quis. Cumque ab deleniti dolore accusantium nostrum itaque numquam iure vero enim, aliquam beatae alias officia blanditiis dolorem voluptate nisi tempora, culpa dolores repellat at? Rerum, placeat fugit assumenda vero omnis in minus voluptate eligendi repudiandae. Tenetur, ipsam. Quae iste aspernatur debitis fugit necessitatibus esse voluptatibus rerum?
                 </p>
             </div>
@@ -55,7 +55,7 @@
     </div>
 </section>
 
-<section id="home-programs">
+<section id="home-programs" class="mb-4">
     <div class="text-section-title text-center">Our Programs</div>
 
     <div class="program d-flex" onclick="location.href='/g-academia';">
@@ -151,56 +151,59 @@
     </div>
 </section>
 
-<section id="home-updates">
-    <div class="text-section-title text-center">Our Updates</div>
+<section id="home-updates" class="mb-4">
+    <div class="container">
+        <div class="text-section-title text-center">Our Updates</div>
 
-    <div class="text-sub-section-title text-center">Our Instagram</div>
-    <p class="text-content-regular text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
-    
-    <div class="text-sub-section-title text-center">Upcoming Events</div>
-    <p class="text-content-regular text-center">Here are some of our upcoming events at Gandeng Foundation. If you're interested, be sure to add it to your calendar so you don't miss it!</p>
-    <div class="container p-5">
-       <div class="d-flex justify-content-center">
-            <div class="custom-card">
-                <div class="card-image">
-                    <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
+        <div class="text-sub-section-title text-center">Our Instagram</div>
+        <p class="text-content-regular text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
+        
+        <div class="text-sub-section-title text-center">Upcoming Events</div>
+        <p class="text-content-regular text-center">Here are some of our upcoming events at Gandeng Foundation. If you're interested, be sure to add it to your calendar so you don't miss it!</p>
+        <div class="container">
+        <div id="home-event-container" class="d-flex justify-content-center">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img class="text-center card-image" src="{{ asset('img/sample-post.png') }}" alt="">
+                    </div>
+                    
+                    <div class="card-content p-4">
+                        <div class="event-title text-sub-section-title">Event Title</div>
+                        <div class="event-guest">Special Guest: <b>Lorem Ipsum</b></div>
+                        <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+
+                        <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More</button>
+                    </div>
                 </div>
-                
-                <div class="card-content p-4">
-                    <div class="event-title text-sub-section-title">Event Title</div>
-                    <div class="event-guest">Special Guest: <b>Lorem Ipsum</b></div>
-                    <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
 
-                    <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More</button>
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
+                    </div>
+                    <div class="card-content p-4">
+                        <div class="event-title text-sub-section-title">Event Title</div>
+                        <div class="event-guest">&nbsp;</div>
+                        <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
+
+                        <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More<i class></i></button>
+                    </div>
                 </div>
             </div>
 
-            <div class="custom-card">
-                <div class="card-image">
-                    <img class="text-center card-image" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
-                </div>
-                <div class="card-content p-4">
-                    <div class="event-title text-sub-section-title">Event Title</div>
-                    <div class="event-guest">&nbsp;</div>
-                    <p class="event-excerpt text-content-light">In hac habitasse platea dictumst. Fusce accumsan dui ante. Aliquam sem orci, sodales at mollis eu, ornare et felis.</p>
-
-                    <button class="btn-primary-rect mt-4" onclick="location.href='/event';">Read More<i class></i></button>
-                </div>
+            <div class="text-center mb-4">
+                <a href="/events">See more upcoming events <i class="fas fa-angle-double-right fa-xs"></i></a>
             </div>
-        </div>
-
-        <div class="text-center mt-5">
-            <a href="/events">See more upcoming events <i class="fas fa-angle-double-right fa-xs"></i></a>
         </div>
     </div>
+    
     
     
     
 </section>
 
 <section id="home-gallery">
-    <div class="bg-dark p-5 d-flex align-items-center justify-content-center">
-        
+    <div class="bg-dark">
+        <div id="home-gallery-container" class="container py-4 d-flex align-items-center justify-content-center">
             <div class="text-center text-light mx-2">
                 <div class="text-section-title">Meet the team</div>
                 <div class="text-content-light mb-5">Meet our hardworking and dedicated team behing Gandeng Foundation through our gallery to know us deeper!</div>
@@ -210,17 +213,20 @@
             <div class="d-flex justify-content-center mx-2">
                 <img src="../img/zoom.png" alt="">
             </div>
-        
+        </div>
     </div>
+    
 </section>
 
 <section id="home-partners">
-    <div class="bg-yellow text-center p-5">
-        <div class="text-section-title">Our Partners</div>
-        <div class="text-sub-section-title">You can be our partner, too!</div>
-        <p class="text-content-regular">If you're interested in building a partnership with us, do not hesitate to register by clicking the button below.</p>
+    <div class="bg-yellow ">
+        <div class="container text-center py-4">
+            <div class="text-section-title">Our Partners</div>
+            <div class="text-sub-section-title">You can be our partner, too!</div>
+            <p class="text-content-regular">If you're interested in building a partnership with us, do not hesitate to register by clicking the button below.</p>
 
-        <button class="btn-dark-round mt-3" onclick="location.href='/partnership';">Register Now</button>
+            <button class="btn-dark-round mt-3" onclick="location.href='/partnership';">Register Now</button>
+        </div>
     </div>
 </section>
 
