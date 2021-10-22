@@ -18,7 +18,7 @@
 </section>
 <section class="synergy">
     <div class="container p-5 text-center">
-            <img class="w-75" src="../img/sample-image-4.jpg" alt="synergy">
+            <img class="w-75" src="../img/Synergy.png" alt="synergy">
     </div>
 </section>
     
