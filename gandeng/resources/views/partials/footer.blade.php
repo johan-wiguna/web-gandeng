@@ -1,12 +1,12 @@
 <footer class="text-white">
-    <div class="d-flex justify-content-between">
-        <div class="footer-navigation d-flex justify-content-between w-100">
+    <div id="footer-upper" class="d-flex justify-content-between">
+        <div id="footer-navigation" class="d-flex flex-wrap justify-content-between w-100">
             <div class="footer-sub-section">
                 <div class="footer-sub-title">About Us</div>
                 <ul class="footer-nav-links">
                     <li><a href="/about/our-story">Our Story</a></li>
                     <li><a href="/about/vision-mission">Vision & Mission</a></li>
-                    <li><a href="/about/people">People Behind Gandeng</a></li>
+                    <li><a href="/about/founders">Founders</a></li>
                 </ul>
             </div>
 
@@ -45,7 +45,7 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-newsletter ps-5">
+        <div id="footer-newsletter" class="ps-5">
             <div class="footer-sub-title">
                 Subscribe to our newsletter!
             </div>
@@ -59,12 +59,12 @@
         </div>
     </div>
 
-    <div class="d-flex align-items-center justify-content-between">
+    <div id="footer-bottom" class="d-flex align-items-center justify-content-between">
         <div id="footer-logo">
-            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light.png') }}" alt="">
+            <img src="{{ asset('img/gandeng-logos/gandeng-logotype-light-small.png') }}" alt="Gandeng">
         </div>
         
-        <div id="footer-tagline" class="font-montserrat text-center"><b>#GandengSetaraTumbuhBersama</b></div>
+        <div id="footer-tagline" class="font-montserrat text-center">#GandengSetaraTumbuhBersama</div>
 
         <div id="footer-socials" class="text-end">
             <a href="https://www.linkedin.com/company/gandengfoundation/" target="_blank"><i class="fab fa-linkedin fa-2x pe-2"></i></a>
