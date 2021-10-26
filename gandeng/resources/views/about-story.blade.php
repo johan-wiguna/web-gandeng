@@ -4,9 +4,17 @@
 @include('partials.about')
 <section id="about-journey" class="mb-5">
     <div class="container">
-        <div class="text-section-title text-center">The start of our journey</div>
+        <div class="d-flex">
+            <div>
+                <div class="text-section-title">The start of our journey</div>
 
-        <p class="text-content-regular-l text-center">It all started because our founders observed that there was a lack of systematic approach in soft-skill education for children in Indonesia, along with numerous social initiatives, NGO, and social enterprises who find it difficult to be sustainable, for example because of the lack of funding or human resource management strategy.</p>
+                <p class="text-content-regular-l">It all started because our founders observed that there was a lack of systematic approach in soft-skill education for children in Indonesia, along with numerous social initiatives, NGO, and social enterprises who find it difficult to be sustainable, for example because of the lack of funding or human resource management strategy.</p>
+            </div>
+            <div>
+                <img src="{{ asset('img/journey.svg') }}" alt="Our journey">
+            </div>
+        </div>
+        
         <br>
         <hr>
         <br>
@@ -32,10 +40,10 @@
                 
                 <div class="about-logotag-exp">
                     <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The letter 'G'</div>
-                    <div class="text-content-regular">Represents the initial of "Gandeng Foundation".</div>
+                    <div class="text-content-regular mb-2">Represents the initial of "Gandeng Foundation".</div>
 
                     <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">People holding hands</div>
-                    <div class="text-content-regular">Represents the affection and supports that people of Gandeng give to each other.</div>
+                    <div class="text-content-regular mb-2">Represents the affection and supports that people of Gandeng give to each other.</div>
 
                     <div class="text-content-regular-l fw-bold font-montserrat text-capitalize">The lantern</div>
                     <div class="text-content-regular">Represents how the mentors will help guide their mentees, which the light will always follow whoever holds the lantern.</div>
