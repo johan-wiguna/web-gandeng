@@ -462,6 +462,10 @@ footer input {
         border-top: 1px solid rgb(80, 80, 80);
         padding: 12px 0 !important;
     }
+
+    #about-journey img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -471,6 +475,24 @@ footer input {
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin-left: 0 !important;
+    }
+
+    #journey-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #journey-container p {
+        margin-bottom: 24px;
+    }
+
+    .about-logotag-container {
+        flex-direction: column;
+    }
+
+    .about-logotag-image {
+        border: none;
+        margin-bottom: 14px;
     }
 }
 

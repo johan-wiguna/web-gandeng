@@ -4,7 +4,7 @@
 @include('partials.about')
 <section id="about-journey" class="mb-5">
     <div class="container">
-        <div class="d-flex">
+        <div id="journey-container" class="d-flex">
             <div>
                 <div class="text-section-title">The start of our journey</div>
 
@@ -18,6 +18,7 @@
         <br>
         <hr>
         <br>
+
         <p class="text-content-regular-l text-center">One time, when one of our founders was mentoring a 12-year-old &#8211; trained in soft-skill and hard-skill education, a <b>simple question</b> was raised by her:</p>
         <br>
         <div class="text-center">
@@ -33,7 +34,7 @@
         <div class="cst-card cst-card-content">
             <div class="text-section-title text-center pt-0">The logo</div>
 
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="about-logotag-container d-flex justify-content-center align-items-center">
                 <div class="about-logotag-image">
                     <img src="{{ asset("img/gandeng-logos/gandeng-logogram.png") }}" alt="Gandeng logo">
                 </div>
@@ -58,7 +59,7 @@
         <div class="cst-card cst-card-content">
             <div class="text-section-title text-center pt-0">The tagline</div>
 
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="about-logotag-container d-flex justify-content-center align-items-center">
                 <div class="about-logotag-image">
                     <img src="{{ asset("img/gandeng-logos/gandeng-tagline.png") }}" alt="Gandeng logo">
                 </div>
