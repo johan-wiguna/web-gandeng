@@ -56,7 +56,7 @@
         <p class="text-content-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus exercitationem error vitae? Numquam ipsam quam ullam excepturi nihil temporibus sed facilis voluptate odit. Debitis, et possimus nesciunt facere eveniet vel quidem id amet veritatis, adipisci, nisi nemo neque sapiente sequi!</p>
         </div>
         <div class="box bg-yellow p-5">
-            <form action="" class="">
+            <form action="" class="d-flex flex-column">
             <div class="text-section-title">Register NOW!</div>
             
             <div class="mb-3">
@@ -101,10 +101,13 @@
                 <div class="imgproposal">
                     <img src="../img/sample-image-4.jpg" for="proposal">
                 </div>
-                
             </div>
             
+            <div class="d-flex justify-content-end">
+                <button class="btn-dark-round">Submit</button>
+            </div>
             
+
             </form>
         </div>
         
