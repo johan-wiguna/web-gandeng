@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-brand img {
-    width: 100px;
+    width: 110px;
 }
 
 .nav-link {
@@ -220,10 +220,9 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* carousel */
-
 .carousel-inner img {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
     object-fit: cover;
 }
 
@@ -282,6 +281,31 @@ h1,h2,h3,h4,h5,h6{
 
 /* home-updates */
 
+#home-updates .custom-card {
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 3%;
+}
+
+#home-updates .card-image {
+    width: 100%;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    background-color: #757575;
+}
+
+#home-updates img {
+    max-height: 360px;
+    object-fit: contain;
+}
+/* home-gallery */
+
+#home-programs .col1 img {
+    margin-bottom: 10%;
+}
+
+/* home-updates */
+
 #home-updates .cst-card-image {
     width: 100%;
     text-align: center;
@@ -295,6 +319,8 @@ h1,h2,h3,h4,h5,h6{
 }
 /* home-gallery */
 
+
+/* home-partners */
 
 /* home-partners */
 
@@ -350,11 +376,11 @@ footer input {
 
 .footer-sub-title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
 }
 
-.footer-newsletter {
+#footer-newsletter {
     border-left: 1px solid rgb(80, 80, 80);
 }
 
@@ -426,9 +452,29 @@ footer input {
     margin-bottom: 10%;
 }
 
+@media only screen and (max-width: 600px) {
+    #footer-upper {
+        display: block !important;
+    }
 
+    #footer-newsletter {
+        border-left: none;
+        border-top: 1px solid rgb(80, 80, 80);
+        padding: 12px 0 !important;
+    }
+}
 
-@media all and (min-width: 992px) {
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-item {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
 	.navbar .nav-item .dropdown-menu{
         display: none;
@@ -440,5 +486,19 @@ footer input {
 
 	.navbar .nav-item .dropdown-menu{
         margin-top:0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #footer-bottom {
+        flex-direction: column;
+    }
+
+    #footer-bottom div {
+        margin-bottom: 12px;
+    }
+
+    #footer-newsletter {
+        border-left: none;
     }
 }
