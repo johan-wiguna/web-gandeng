@@ -12,13 +12,13 @@
 
             <ul class="d-flex align-items-center justify-content-center">
                 <li>
-                    <a href="/about/story" class="text-dark">Our Story</a>
+                    <a href="/about/story" class="text-dark link-hover-underline">Our Story</a>
                 </li>
                 <li id="border-link">
-                    <a href="/about/vision-mission" class="text-dark">Vision & Mission</a>
+                    <a href="/about/vision-mission" class="text-dark link-hover-underline">Vision & Mission</a>
                 </li>
                 <li>
-                    <a href="/about/founders" class="text-dark">Founders</a>
+                    <a href="/about/founders" class="text-dark link-hover-underline">Founders</a>
                 </li>
             </ul>
         </div>

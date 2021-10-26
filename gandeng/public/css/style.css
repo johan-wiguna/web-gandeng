@@ -18,7 +18,7 @@
     font-weight: bolder;
     font-size: 36px;
     text-transform: uppercase;
-    padding: 16px 0;
+    padding-bottom: 16px;
 }
 
 .text-sub-section-title {
@@ -57,6 +57,28 @@
 
 .text-dark {
     color: #111111 !important;
+}
+
+.link-hover-underline {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link-hover-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    background: #111111;
+    transition: 0.3s ease-out;
+}
+
+.link-hover-underline:hover::after {
+    left: 0;
+    width: 100%;
 }
 
 .lspace-3 {
@@ -363,6 +385,10 @@ footer input {
     border-right: 1px solid #363636;
     padding-right: 3%;
 } */
+
+#about-journey img {
+    width: 400px;
+}
 
 .about-logotag-image {
     width: fit-content;
