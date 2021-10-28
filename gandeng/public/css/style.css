@@ -472,6 +472,24 @@ footer input {
     #mission-container {
         flex-direction: column;
     }
+
+    .founder-container-reversed {
+        flex-direction: column-reverse;
+    }
+
+    .founder-container {
+        flex-direction: column;
+    }
+
+    .founder-container-reversed img, .founder-container img {
+        width: 50% !important;
+        margin-bottom: 14px;
+    }
+
+    .founder-desc {
+        text-align: center !important;
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
