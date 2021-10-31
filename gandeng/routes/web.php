@@ -19,3 +19,9 @@ Route::get('/', function () {
         "title" => "Home"
     ]);
 });
+
+Route::get('/contact', function () {
+    return view('contact', [
+        "title" => "Contact Us"
+    ]);
+});
