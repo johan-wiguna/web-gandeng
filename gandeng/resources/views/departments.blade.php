@@ -19,9 +19,9 @@
         <p class=" text-content-regular-l text-center pb-0">Purus faucibus lobortis ac dolor eget orci, lectus platea. Integer in feugiat viverra enim. Magna lectus ut libero turpis elit, tempus lectus sem. Ut sem consequat porttitor mauris arcu, mattis suspendisse egestas. Dignissim at nibh blandit mollis tellus aliquam volutpat, vestibulum.</p>
 
         <div id="departments-navigation">
-            <button id="nav-branding" class="nav-active" onclick="changeDepartment(this.id)">Branding</button>
-            <button id="nav-operations" onclick="changeDepartment(this.id)">Operations</button>
-            <button id="nav-sng" onclick="changeDepartment(this.id)">Strategy & Growth</button>
+            <button id="nav-branding" class="nav-active" onclick="switchDepartment(this.id)">Branding</button>
+            <button id="nav-operations" onclick="switchDepartment(this.id)">Operations</button>
+            <button id="nav-sng" onclick="switchDepartment(this.id)">Strategy & Growth</button>
         </div>
         
         <div id="department-container">

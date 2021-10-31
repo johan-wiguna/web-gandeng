@@ -4,7 +4,7 @@
 //         pause: "false"
 // });
 
-function changeDepartment(id) {
+function switchDepartment(id) {
     var selected = document.getElementById(id)
     var buttonParent = selected.parentElement
     var buttons = buttonParent.children
