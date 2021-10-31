@@ -63,6 +63,7 @@
     position: relative;
     text-decoration: none;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .link-hover-underline::after {
@@ -394,7 +395,7 @@ footer input {
     padding: 0;
 }
 
-.about-container #border-link {
+.about-container .border-link {
     border-left: 1px solid #111111;
     border-right: 1px solid #111111;
 }
@@ -402,6 +403,10 @@ footer input {
 .about-container ul li {
     list-style-type: none;
     flex: 1;
+}
+
+#about-navigation .nav-active{
+    font-weight: bold;
 }
 
 /* about story */

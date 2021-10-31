@@ -20,22 +20,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::redirect('/about', '/about/story');
-
-Route::get('/about/story', function () {
-    return view('about-story', [
-        "title" => "About Us"
-    ]);
-});
-
-Route::get('/about/vision-mission', function () {
-    return view('about-vision-mission', [
-        "title" => "About Us"
-    ]);
-});
-
-Route::get('/about/founders', function () {
-    return view('about-founders', [
+Route::get('/about', function () {
+    return view('about', [
         "title" => "About Us"
     ]);
 });
