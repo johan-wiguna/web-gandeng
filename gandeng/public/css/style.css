@@ -395,7 +395,33 @@ footer input {
     margin-bottom: 10%;
 }
 
+/* departments */
+#departments-navigation button {
+    font-size: 18px;
+    border: none;
+    border-radius: 12px 12px 0 0;
+    padding: 8px 12px 6px 12px;
+    background:rgb(200, 200, 200);
+    transition: 0.3s;
+}
 
+#departments-navigation button:hover {
+    background:rgb(230, 230, 230);
+}
+
+#departments-navigation .nav-active {
+    background-color: rgb(240, 240, 240);
+}
+
+#departments-navigation .nav-active:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+#department-container {
+    background-color: rgb(240, 240, 240);
+    border-radius: 0 12px 12px 12px;
+    padding: 24px;
+}
 
 @media all and (min-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
