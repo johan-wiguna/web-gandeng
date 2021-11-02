@@ -18,10 +18,9 @@ function switchDepartment(id) {
         
         if (buttons[i].id === id) {
             selectedIdx = i
+            buttons[i].classList.add('nav-active')
         }
     }
-
-    console.log(members)
 
     for (var i = 0; i < members.length; i++) {
         members[i].classList.add('d-none')
@@ -30,6 +29,4 @@ function switchDepartment(id) {
             members[i].classList.remove('d-none')
         }
     }
-
-    selected.classList.add('nav-active')
 }
