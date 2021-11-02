@@ -17,15 +17,11 @@
         </div>
 
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/sample-image-1.jpg" class="d-block" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/sample-image-2.jpg" class="d-block" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/sample-image-3.jpg" class="d-block" alt="...">
-            </div>
+            @foreach ($car_imgs as $car_img)
+                <div class="carousel-item">
+                    <img src="{{ $car_img->imageUrl }}" class="d-block" alt="{{ $car_img->alt_image }}">
+                </div>
+            @endforeach
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slides" data-bs-slide="prev">
