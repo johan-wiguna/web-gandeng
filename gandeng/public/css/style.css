@@ -125,6 +125,17 @@
     color: white;
 }
 
+.btn-dark-round-outline{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+    border-radius: 36px;
+    padding: 10px 36px;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s all ease; 
+}
+
 /* elements override */
 body {
     font-family: 'Open Sans', sans-serif;

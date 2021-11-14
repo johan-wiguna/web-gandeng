@@ -75,4 +75,21 @@
 
 </section>
 
+<section id="cta-contact">
+    <div class="bg-yellow p-5 d-flex align-items-center justify-content-center">
+        
+            <div class="text-center text-dark mx-5">
+                <div class="text-content-regular fs-5">Ready To</div>
+                <div class="text-section-title p-0 pb-3">Want To be our Partner?</div>
+                <div class="text-content-light mb-5">Urna vel eget leo neque nunc bibendum neque amet in lectus arcu</div>
+                
+                <button class="btn-dark-round-outline" onclick="location.href='/gallery/';">Register Now!</button>
+            </div>
+            <div class="d-flex justify-content-center mx-5">
+                <img style="height: 200px" src="../img/registernow.png" alt="">
+            </div>
+        
+    </div>
+</section>
+
 @endsection
