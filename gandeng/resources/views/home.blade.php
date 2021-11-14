@@ -154,9 +154,32 @@
 <section id="home-updates" class="mb-4">
     <div class="container">
         <div class="text-section-title text-center">Our Updates</div>
-
+        
         <div class="text-sub-section-title text-center">Our Instagram</div>
-        <p class="text-content-regular text-center">Follow our Instagram for more updates on Gandeng Foundation!</p>
+        <p class="text-content-regular text-center mb-5">Follow our Instagram for more updates on Gandeng Foundation!</p>
+        
+        <div class="mb-5" id="instagram-feeds">
+            <div id="instagram-container">
+                <div class="d-flex text-center container justify-content-center">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt=""> 
+                </div>
+                <div class="d-flex text-center container justify-content-center">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt=""> 
+                </div>
+                <div class="d-flex text-center container justify-content-center">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt="">
+                    <img class="" src="{{ asset('img/sample-post.png') }}" alt=""> 
+                </div>
+            </div>
+            
+        </div>
+
+        
         
         <div class="text-sub-section-title text-center">Upcoming Events</div>
         <p class="text-content-regular text-center">Here are some of our upcoming events at Gandeng Foundation. If you're interested, be sure to add it to your calendar so you don't miss it!</p>
