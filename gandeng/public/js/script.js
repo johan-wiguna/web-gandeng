@@ -1,5 +1,7 @@
 /* HOME PAGE */
 /* carousel items*/
-// $('.carousel').carousel({
-//         pause: "false"
-// });
+$('.carousel').carousel({
+        pause: "false"
+});
+
+
