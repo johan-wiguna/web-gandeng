@@ -51,3 +51,9 @@ Route::get('/programs', function () {
         "title" => "Programs"
     ]);
 });
+
+Route::get('/programs/g-incubation', function () {
+    return view('program-incubation', [
+        "title" => "G-Incubation"
+    ]);
+});
