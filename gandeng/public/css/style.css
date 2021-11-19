@@ -329,6 +329,19 @@ footer input {
     margin: 12px 0;
 }
 
+#program-gallery-swiper {
+    width: 800px;
+}
+
+#program-gallery-swiper .swiper-slide {
+    align-self: center;
+}
+
+#program-gallery-swiper .swiper-slide img {
+    width: 100%;
+    object-fit: contain;
+}
+
 /* g-incubation */
 .g-inc-section-title {
     font-family: 'Montserrat', sans-serif;
@@ -349,6 +362,14 @@ footer input {
 #question-img {
     width: 420px;
     height: auto;
+}
+
+.swiper-pagination-bullet-active {
+    background: #65c097;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {

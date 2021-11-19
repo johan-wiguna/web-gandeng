@@ -13,8 +13,8 @@
 
 <section id="program-background" class="p-5">
     <div class="container">
-        <h2 class="g-inc-section-title text-center">Problems in social enterprises and NGO</h2>
-        <p class="text-content-regular text-center my-2">
+        <h2 class="g-inc-section-title text-center mb-2">Problems in social enterprises and NGO</h2>
+        <p class="text-content-regular text-center mb-4">
             There are several issues that halt the growth of Social Enterprises and NGOs
         </p>
 
@@ -139,6 +139,47 @@
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-11.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Research Method</div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section id="program-gallery" class="pb-5">
+    <div class="container">
+        <h2 class="g-inc-section-title text-center mb-2">This is us</h2>
+        <p class="text-content-regular text-center mb-4">
+            Here is some of our photos to let you know us better.
+        </p>
+
+        <div id="program-gallery-swiper" class="swiper mb-4">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/800/600" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/1000/600" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <p class="text-content-regular text-center mb-2">
+            Interested in viewing more of our photos? Go to our gallery by clicking the button below!
+        </p>
+
+        <div class="text-center">
+            <button class="btn-g-inc-round" onclick="location.href='/gallery/';">Go to Gallery</button>
         </div>
     </div>
 </section>
