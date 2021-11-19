@@ -13,7 +13,7 @@
 
 <section id="program-background" class="p-5">
     <div class="container">
-        <h2 class="g-inc-section-title text-center mb-2">Problems in social enterprises and NGO</h2>
+        <h2 class="ginc-section-title text-center mb-2">Problems in NGO and social enterprises</h2>
         <p class="text-content-regular text-center mb-4">
             There are several issues that halt the growth of Social Enterprises and NGOs
         </p>
@@ -36,8 +36,8 @@
         </div>
 
         <div class="text-center mb-5">
-            <span class="text-content-regular-l text-center low-highlight-g-inc">
-                Therefore, <b>G-Incubation</b> is here to boost starting NGOs and SEs to reach better sustainability.
+            <span class="text-content-regular-l text-center low-highlight-ginc">
+                Therefore, <b>G-Incubation</b> is here to boost starting <b>NGO</b>s and <b>SE</b>s to reach better sustainability.
             </span>
         </div>
 
@@ -48,21 +48,21 @@
 
             <div>
                 <div>
-                    <h2 class="g-inc-section-title">How?</h2>
+                    <h2 class="ginc-section-title">How?</h2>
                     <p class="text-content-regular-l">
                         By providing comprehensive fundamental skills needed to develop organizations and business.
                     </p>
                 </div>
                 <br>
                 <div>
-                    <h2 class="g-inc-section-title">What skills?</h2>
+                    <h2 class="ginc-section-title">What skills?</h2>
                     <ul>
                         <li>
                             <span class="text-content-regular-l"><b>Knowledge</b></span>
                             <br>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus sapiente veritatis.</p>
                         </li>
-                        <li>
+                        <li class="my-3">
                             <span class="text-content-regular-l"><b>Network</b></span>
                             <br>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus sapiente veritatis.</p>
@@ -79,9 +79,9 @@
     </div>
 </section>
 
-<section id="g-inc-curriculum" class="pb-5">
+<section id="ginc-curriculum" class="pb-5">
     <div class="container">
-        <h2 class="g-inc-section-title text-center mb-2">Our curriculum</h2>
+        <h2 class="ginc-section-title text-center mb-2">Our curriculum</h2>
         <p class="text-center mb-4">Here are the list of what you will be learning in this program.</p>
         
         <div class="module-container d-flex justify-content-around align-items-center flex-wrap">
@@ -145,7 +145,7 @@
 
 <section id="program-gallery" class="pb-5">
     <div class="container">
-        <h2 class="g-inc-section-title text-center mb-2">This is us</h2>
+        <h2 class="ginc-section-title text-center mb-2">This is us</h2>
         <p class="text-content-regular text-center mb-4">
             Here is some of our photos to let you know us better.
         </p>
@@ -174,12 +174,74 @@
             <div class="swiper-button-next"></div>
         </div>
 
-        <p class="text-content-regular text-center mb-2">
+        <p class="text-content-regular text-center mb-3">
             Interested in viewing more of our photos? Go to our gallery by clicking the button below!
         </p>
 
         <div class="text-center">
-            <button class="btn-g-inc-round" onclick="location.href='/gallery/';">Go to Gallery</button>
+            <button class="btn-ginc-round" onclick="location.href='/gallery/';">Go to Gallery</button>
+        </div>
+    </div>
+</section>
+
+<section id="program-cta" class="p-5 bg-ginc-1">
+    <div class="container">
+        <div class="d-flex justify-content-around align-items-center text-center">
+            <div>
+                <div id="cta-ready-to">Ready to</div>
+                <h1 id="cta-tag" class="mb-4">#DevelopYourself?</h1>
+                <p class="text-content-light-l mb-4">Join our program now by clicking the button below!</p>
+
+                <button class="btn-dark-round-outline" onclick="location.href='/';">Register Now</button>
+            </div>
+            
+            <div>
+                <img src="{{ asset('img/g-incubation/register.svg') }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="program-faq" class="py-5">
+    <div class="container">
+        <h2 class="ginc-section-title text-center mb-2">Frequently asked questions</h2>
+        
+        <div id="faq-container" class="d-flex justify-content-around flex-wrap">
+            <div class="faq faq-ginc">
+                <div class="faq-question">
+                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                </div>
+                <div class="faq-answer">
+                    Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
+                </div>
+            </div>
+
+            <div class="faq faq-ginc">
+                <div class="faq-question">
+                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                </div>
+                <div class="faq-answer">
+                    Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
+                </div>
+            </div>
+
+            <div class="faq faq-ginc">
+                <div class="faq-question">
+                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                </div>
+                <div class="faq-answer">
+                    Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
+                </div>
+            </div>
+
+            <div class="faq faq-ginc">
+                <div class="faq-question">
+                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                </div>
+                <div class="faq-answer">
+                    Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
+                </div>
+            </div>
         </div>
     </div>
 </section>

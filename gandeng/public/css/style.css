@@ -144,6 +144,23 @@
     color: white;
 }
 
+.btn-dark-round-outline {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 36px;
+    padding: 10px 22px;
+    background: none;
+    border: 1px solid #111111;
+    color: #111111;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.btn-dark-round-outline:hover {
+    border: 1px solid white;
+    background-color: white;
+}
+
 .btn-g-ac-round {
     font-family: 'Montserrat', sans-serif;
     border: none;
@@ -161,7 +178,7 @@
     color: #f9f9f9;
 }
 
-.btn-g-inc-round {
+.btn-ginc-round {
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 36px;
@@ -173,7 +190,7 @@
     transition: 0.3s all ease;
 }
 
-.btn-g-inc-round:hover {
+.btn-ginc-round:hover {
     background-color: #509373;
     color: #f9f9f9;
 }
@@ -342,20 +359,55 @@ footer input {
     object-fit: contain;
 }
 
+#cta-ready-to {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+
+#cta-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#program-cta img {
+    width: 420px;
+    height: auto;
+}
+
+#faq-container > div {
+    flex: 50%;
+}
+
+.faq {
+    padding: 1%;
+}
+
+.faq-question {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-question i {
+    margin-right: 4px;
+}
+
 /* g-incubation */
-.g-inc-section-title {
+.ginc-section-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color: #65c097;
 }
 
-#g-inc-curriculum .module-icon {
+#ginc-curriculum .module-icon {
     width: 36px;
     margin-right: 24px;
 }
 
-.low-highlight-g-inc {
+.low-highlight-ginc {
     background: linear-gradient(to top, #9CE8C4 35%, transparent 35%);
 }
 
@@ -372,6 +424,10 @@ footer input {
     color: white;
 }
 
+.faq-ginc .faq-question {
+    color: #65c097;
+}
+
 @media only screen and (max-width: 600px) {
     #footer-upper {
         display: block !important;
@@ -385,12 +441,18 @@ footer input {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    #program-gallery-swiper {
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin-left: 0 !important;
+    }
+
+    #faq-container > div {
+        flex: 100%;
     }
 }
 
