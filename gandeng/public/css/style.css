@@ -377,6 +377,7 @@ footer input {
 
 #faq-container > div {
     flex: 50%;
+    align-items: flex-start;
 }
 
 .faq {
@@ -390,8 +391,28 @@ footer input {
     cursor: pointer;
 }
 
-.faq-question i {
+.faq-answer {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(-30%);
+    max-height: 0;
+}
+
+.faq-answer-active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+    max-height: fit-content;
+}
+
+.faq-chevron  {
     margin-right: 4px;
+    transition: 0.5s;
+}
+
+.faq-chevron-active {
+    transform: rotate(90deg);
 }
 
 /* g-incubation */

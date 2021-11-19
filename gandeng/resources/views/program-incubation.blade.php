@@ -207,36 +207,37 @@
         <h2 class="ginc-section-title text-center mb-2">Frequently asked questions</h2>
         
         <div id="faq-container" class="d-flex justify-content-around flex-wrap">
-            <div class="faq faq-ginc">
+            <div id="faq-1" class="faq faq-ginc" onclick="expandFAQ(this.id)">
                 <div class="faq-question">
-                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                    <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i>
+                    <span>What is this question?</span>
                 </div>
                 <div class="faq-answer">
                     Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
                 </div>
             </div>
 
-            <div class="faq faq-ginc">
+            <div id="faq-2" class="faq faq-ginc" onclick="expandFAQ(this.id)">
                 <div class="faq-question">
-                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                    <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">
                     Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
                 </div>
             </div>
 
-            <div class="faq faq-ginc">
+            <div id="faq-3" class="faq faq-ginc" onclick="expandFAQ(this.id)">
                 <div class="faq-question">
-                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                    <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">
                     Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
                 </div>
             </div>
 
-            <div class="faq faq-ginc">
+            <div id="faq-4" class="faq faq-ginc" onclick="expandFAQ(this.id)">
                 <div class="faq-question">
-                    <i class="fas fa-chevron-right fa-xs text-dark"></i> What is this question?
+                    <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">
                     Erat magna lacus mattis vivamus. Sed turpis quis aliquam massa pellentesque nullam sed netus. Lacus ut nisl ut adipiscing a magna a quis sodales. Porttitor urna, morbi mi et fermentum.
