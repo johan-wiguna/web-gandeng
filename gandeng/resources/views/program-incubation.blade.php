@@ -143,7 +143,136 @@
     </div>
 </section>
 
-<section id="program-gallery" class="pb-5">
+<section id="ginc-program" class="pb-5">
+    <div class="container">
+        <h2 class="ginc-section-title text-center mb-2">Our Programs</h2>
+        <p class="text-center">A self-development program for secondary school students, which will be held over the course of 9 months.</p>
+        <p class="text-center mb-4">The program is online and free of charge, allowing any Indonesian student to participate in the program.</p>
+        
+        <div class="d-flex justify-content-center flex-wrap text-center">
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Big Class</h6>
+                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Assignments & Roadmap Making</h6>
+                <p>Evaluation of curriculum mastery and internal condition to support your organization model and roadmap making.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Expert Advisory</h6>
+                <p>Get real insights from the best experts in the field related with your NGOs/SEs.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
+                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
+                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
+                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+            </div>
+            <div class="program-container">
+                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
+                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section id="ginc-incubatees">
+    <div class="content">
+        <h2 class="ginc-section-title text-center mb-2">this year selected incubatees</h2>
+        <div class="bg-ginc-1">
+            <div class="container">
+            
+    
+    
+                <div id="incubatees-swiper" class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide d-flex flex-wrap justify-content-around p-5">
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
+                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="swiper-slide">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione tempore adipisci quasi facilis, voluptatem placeat voluptas sequi, dolore mollitia enim dolorem necessitatibus! Pariatur voluptate suscipit aliquam et ratione accusamus autem.</p>
+                        </div>
+        
+                        <div class="swiper-slide">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione tempore adipisci quasi facilis, voluptatem placeat voluptas sequi, dolore mollitia enim dolorem necessitatibus! Pariatur voluptate suscipit aliquam et ratione accusamus autem.</p>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+        
+        
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="program-gallery" class="py-5">
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">This is us</h2>
         <p class="text-content-regular text-center mb-4">
@@ -208,7 +337,7 @@
         
         <div id="faq-container" class="d-flex justify-content-around flex-wrap">
             <div id="faq-1" class="faq faq-ginc" onclick="expandFAQ(this.id)">
-                <div class="faq-question">
+                <div class="text-content-bold">
                     <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i>
                     <span>What is this question?</span>
                 </div>
@@ -218,7 +347,7 @@
             </div>
 
             <div id="faq-2" class="faq faq-ginc" onclick="expandFAQ(this.id)">
-                <div class="faq-question">
+                <div class="text-content-bold">
                     <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">
@@ -227,7 +356,7 @@
             </div>
 
             <div id="faq-3" class="faq faq-ginc" onclick="expandFAQ(this.id)">
-                <div class="faq-question">
+                <div class="text-content-bold">
                     <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">
@@ -236,7 +365,7 @@
             </div>
 
             <div id="faq-4" class="faq faq-ginc" onclick="expandFAQ(this.id)">
-                <div class="faq-question">
+                <div class="text-content-bold">
                     <i class="faq-chevron fas fa-chevron-right fa-xs text-dark"></i> What is this question?
                 </div>
                 <div class="faq-answer">

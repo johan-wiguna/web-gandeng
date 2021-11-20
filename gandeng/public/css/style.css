@@ -47,6 +47,13 @@
     font-weight: 300;
 }
 
+.text-content-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -359,6 +366,28 @@ footer input {
     object-fit: contain;
 }
 
+/* ginc-incubatees */
+#incubatees-swiper {
+    width: 100%;
+}
+
+#incubatees-swiper .swiper-slide {
+    align-items: center;
+}
+
+#incubatees-swiper .swiper-slide img {
+    border-radius: 50%;
+}
+
+#incubatees-swiper .incubatees-name{
+    height: 35px;
+}
+
+#incubatees-swiper .swiper-slide div{
+    flex: 25%;
+    margin: 12px 0;
+}
+
 #cta-ready-to {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -382,13 +411,6 @@ footer input {
 
 .faq {
     padding: 1%;
-}
-
-.faq-question {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 .faq-answer {
@@ -445,10 +467,21 @@ footer input {
     color: white;
 }
 
-.faq-ginc .faq-question {
+.faq-ginc .text-content-bold{
     color: #65c097;
 }
 
+#ginc-program img{
+    width: 100%;
+}
+#ginc-program .program-container{
+    width: 280px;
+    margin: 12px;
+}
+#ginc-program .program-name{
+    height: 35px;
+    color: #65c097;
+}
 @media only screen and (max-width: 600px) {
     #footer-upper {
         display: block !important;
