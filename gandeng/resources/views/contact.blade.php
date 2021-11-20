@@ -75,20 +75,21 @@
 
 </section>
 
-<section id="cta-contact">
-    <div class="bg-yellow p-5 d-flex align-items-center justify-content-center">
-        
-            <div class="text-center text-dark mx-5">
-                <div class="text-content-regular fs-5">Ready To</div>
-                <div class="text-section-title p-0 pb-3">Want To be our Partner?</div>
-                <div class="text-content-light mb-5">Urna vel eget leo neque nunc bibendum neque amet in lectus arcu</div>
-                
-                <button class="btn-dark-round-outline" onclick="location.href='/gallery/';">Register Now!</button>
+<section id="program-cta" class="p-5 bg-yellow">
+    <div class="container">
+        <div class="d-flex justify-content-around align-items-center text-center">
+            <div>
+                <div id="cta-ready-to">Ready to</div>
+                <h1 id="cta-tag" class="mb-4">#DevelopYourself?</h1>
+                <p class="text-content-light-l mb-4">Join our program now by clicking the button below!</p>
+
+                <button class="btn-dark-round-outline" onclick="location.href='/';">Register Now</button>
             </div>
-            <div class="d-flex justify-content-center mx-5">
-                <img style="height: 200px" src="../img/registernow.png" alt="">
+            
+            <div>
+                <img src="{{ asset('img/registernow.png') }}" alt="">
             </div>
-        
+        </div>
     </div>
 </section>
 
