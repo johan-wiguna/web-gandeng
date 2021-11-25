@@ -151,39 +151,39 @@
         
         <div class="d-flex justify-content-center flex-wrap text-center">
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <img id="question-img" src="https://picsum.photos/600" alt="">
                 <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Big Class</h6>
                 <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <img id="question-img" src="https://picsum.photos/600" alt="">
                 <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Assignments & Roadmap Making</h6>
                 <p>Evaluation of curriculum mastery and internal condition to support your organization model and roadmap making.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <img id="question-img" src="https://picsum.photos/600" alt="">
                 <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Expert Advisory</h6>
                 <p>Get real insights from the best experts in the field related with your NGOs/SEs.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
+                <img id="question-img" src="https://picsum.photos/600" alt="">
                 <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
                 <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
-                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
-                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+                <img id="question-img" src="https://picsum.photos/600" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Project</h6>
+                <p>Baby steps of roadmap realization towards growing and sustainable NGO/SE.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
-                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
-                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+                <img id="question-img" src="https://picsum.photos/600" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Consultation</h6>
+                <p>Tailor made strategies to fit the incubatees for the next 2-3 years by consultant teams advised by professionals MBB consultant.</p>
             </div>
             <div class="program-container">
-                <img id="question-img" src="{{ asset('img/g-incubation/sample-post.png') }}" alt="">
-                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Final Presentation</h6>
-                <p>Pitch your roadmap proposal to our advisors and go through the next level of program.</p>
+                <img id="question-img" src="https://picsum.photos/600" alt="">
+                <h6 class="text-content-bold my-3 program-name d-flex align-items-center justify-content-center">Pitching Day</h6>
+                <p>Connection event made for connecting incubatees to potential angel investors.</p>
             </div>
             
             
@@ -191,80 +191,119 @@
     </div>
 </section>
 
-<section id="ginc-incubatees">
+<section id="ginc-incubatees" class="incubatees">
     <div class="content">
         <h2 class="ginc-section-title text-center mb-2">this year selected incubatees</h2>
         <div class="bg-ginc-1">
             <div class="container">
-            
-    
-    
                 <div id="incubatees-swiper" class="swiper">
-                    <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
-                        <!-- Slides -->
                         <div class="swiper-slide d-flex flex-wrap justify-content-around p-5">
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+                            
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
+
                             <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
-                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Big Class</h6>
-                                <p>Weekly meeting where incubatees are taught with NGO/SE fundamentals and best practices by expertise as the speaker.</p>
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
                             </div>
                         </div>
 
+                        <div class="swiper-slide d-flex flex-wrap justify-content-around p-5">
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
 
-                        
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione tempore adipisci quasi facilis, voluptatem placeat voluptas sequi, dolore mollitia enim dolorem necessitatibus! Pariatur voluptate suscipit aliquam et ratione accusamus autem.</p>
-                        </div>
-        
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione tempore adipisci quasi facilis, voluptatem placeat voluptas sequi, dolore mollitia enim dolorem necessitatibus! Pariatur voluptate suscipit aliquam et ratione accusamus autem.</p>
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+                            
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
+
+                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                <img src="https://picsum.photos/100" alt="">
+                                <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
+                                <p>NGO/SE Name</p>
+                            </div>
                         </div>
                     </div>
-                    <!-- If we need pagination -->
+
                     <div class="swiper-pagination"></div>
                     
-                    <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-        
-        
             </div>
         </div>
 
@@ -272,7 +311,7 @@
 
 </section>
 
-<section id="program-gallery" class="py-5">
+<section id="program-gallery" class="gallery-ginc py-5">
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">This is us</h2>
         <p class="text-content-regular text-center mb-4">
@@ -284,15 +323,15 @@
             <div class="swiper-wrapper">
               <!-- Slides -->
                 <div class="swiper-slide">
-                    <img src="https://picsum.photos/1200/600" alt="">
+                    <img src="https://picsum.photos/1600/900" alt="">
                 </div>
                 
                 <div class="swiper-slide">
-                    <img src="https://picsum.photos/800/600" alt="">
+                    <img src="https://picsum.photos/1920/1080" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="https://picsum.photos/1000/600" alt="">
+                    <img src="https://picsum.photos/1280/720" alt="">
                 </div>
             </div>
             <!-- If we need pagination -->

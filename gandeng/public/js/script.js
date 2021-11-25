@@ -12,7 +12,12 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
 });
 
 function expandFAQ(id) {

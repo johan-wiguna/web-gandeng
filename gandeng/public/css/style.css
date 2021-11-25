@@ -459,8 +459,12 @@ footer input {
     height: auto;
 }
 
-.swiper-pagination-bullet-active {
+.gallery-ginc .swiper-pagination-bullet-active {
     background: #65c097;
+}
+
+.incubatees .swiper-pagination-bullet-active {
+    background: white;
 }
 
 .swiper-button-next, .swiper-button-prev {
