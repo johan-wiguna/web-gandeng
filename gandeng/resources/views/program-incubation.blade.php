@@ -147,7 +147,7 @@
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">Our Programs</h2>
         <p class="text-center">A self-development program for secondary school students, which will be held over the course of 9 months.</p>
-        <p class="text-center mb-4">The program is online and free of charge, allowing any Indonesian student to participate in the program.</p>
+        <p class="text-center mb-4">The program is <b>online</b> and <b>free of charge</b>, allowing any Indonesian student to participate in the program.</p>
         
         <div class="d-flex justify-content-center flex-wrap text-center">
             <div class="program-container">
