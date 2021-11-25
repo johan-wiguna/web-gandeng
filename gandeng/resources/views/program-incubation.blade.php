@@ -360,7 +360,7 @@
                 <h1 id="cta-tag" class="mb-4">#DevelopYourself?</h1>
                 <p class="text-content-light-l mb-4">Join our program now by clicking the button below!</p>
 
-                <button class="btn-dark-round-outline" onclick="location.href='/';">Register Now</button>
+                <button class="btn-dark-round-outline fw-bold" onclick="location.href='/';">Register Now</button>
             </div>
             
             <div>
