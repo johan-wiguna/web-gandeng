@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\Http;
 
 class HomeController extends Controller
 {
-    public function index(){
-        // $car_imgs = DB::select('select * from home_carousels');
+    public function index() {
+        $car_imgs = DB::select('select * from home_carousels');
         $instagramPosts = $this->getInstagramPosts();
         return view('home', [
             "title" => "Home",
-            // "car_imgs"=>$car_imgs
+            "car_imgs"=>$car_imgs,
             "instagramPosts" => $instagramPosts
         ]);
     }

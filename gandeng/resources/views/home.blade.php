@@ -10,6 +10,20 @@
 <section id="home-carousel">
     {{-- Carousel images will be taken from database --}}
     <div id="carousel-slides" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @foreach ($car_imgs as $car_img)
+                @if ($loop->first)
+                    <div class="carousel-item active">
+                        <img src="{{ asset($car_img->image_url)}}" alt="{{ $car_img->alt }}">
+                    </div>
+                @else
+                    <div class="carousel-item">
+                        <img src="{{ asset($car_img->image_url)}}" alt="{{ $car_img->alt }}">
+                    </div>
+                @endif
+            @endforeach
+        </div>
+
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,14 +31,6 @@
         </div>
 
         <div class="main-main">{{ $instagramPosts }}</div>
-
-        <div class="carousel-inner">
-            {{-- @foreach ($car_imgs as $car_img)
-                <div class="carousel-item">
-                    <img src="{{ $car_img->imageUrl }}" class="d-block" alt="{{ $car_img->alt_image }}">
-                </div>
-            @endforeach --}}
-        </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slides" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -48,7 +54,7 @@
                 </p>
             </div>
             
-            <img class="w-25" src="../img/sample-image-4.jpg" alt="">
+            <img class="w-25" src="{{ asset('img/sample-image-1.jpg') }}" alt="">
         </div>
     </div>
 </section>
