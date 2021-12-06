@@ -30,8 +30,6 @@
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <div class="main-main">{{ $instagramPosts }}</div>
-
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slides" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -180,7 +178,13 @@
                     <img class="" src="{{ asset('img/sample-post.png') }}" alt=""> 
                 </div>
             </div>
-            
+        </div>
+
+        <div class="main-main">
+            @foreach ($instagramPosts as $post)
+                <img src="data:image/jpeg;base64, {{ $post }}" alt="ig">
+                <div>{{ $post }}</div>
+            @endforeach
         </div>
 
         

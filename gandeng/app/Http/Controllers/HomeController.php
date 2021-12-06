@@ -26,10 +26,15 @@ class HomeController extends Controller
             '__a' => 1,
         ]);
         
-        echo "test";
+        $posts_json = $response['graphql']['user']['edge_owner_to_timeline_media']['edges'];
+        $post_thumbnail_links = [];
 
-        return $response;
-        
+        // get thumbnail link for each post
+        for ($i = 0; $i < 9; $i++) {
+            array_push($post_thumbnail_links, $posts_json[$i]['node']['display_url']);
+        } 
+
+        return $post_thumbnail_links;
     }
 
 }
