@@ -16,12 +16,14 @@
             <button type="button" data-bs-target="#carousel-slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
+        <div class="main-main">{{ $instagramPosts }}</div>
+
         <div class="carousel-inner">
-            @foreach ($car_imgs as $car_img)
+            {{-- @foreach ($car_imgs as $car_img)
                 <div class="carousel-item">
                     <img src="{{ $car_img->imageUrl }}" class="d-block" alt="{{ $car_img->alt_image }}">
                 </div>
-            @endforeach
+            @endforeach --}}
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slides" data-bs-slide="prev">
