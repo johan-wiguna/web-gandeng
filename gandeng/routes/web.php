@@ -20,8 +20,8 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/programs/g-incubation', function () {
-    return view('program-incubation', [
-        "title" => "G-Incubation"
+Route::get('/programs/g-consulting', function () {
+    return view('program-consulting', [
+        "title" => "G-Consulting"
     ]);
 });
