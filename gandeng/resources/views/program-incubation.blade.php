@@ -192,6 +192,101 @@
 </section>
 
 <section id="ginc-incubatees" class="incubatees">
+<section id="ginc-advisors">
+    <div class="container">
+        <div class="section-title">
+            <h2>This Year Selected Incubatees</h2>
+            <span class="section-separator"></span>
+        </div>
+        <div class="section-sub-title">
+            Here are the list of this year selected incubatees.
+        </div>
+    </div>
+    <div class="testimonials-carousel-wrap">
+        <div class="d-flex justify-content-center">
+            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div> 
+        </div>
+
+        <div class="testimonials-carousel m-5">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Cards -->
+                    <div class="swiper-slide" onclick="zoomProfile(this)">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                            <div class="testimonials-text">
+                                <!-- <a href="#" class="text-link"></a> -->
+                                <div class="testimonials-avatar">
+                                    <h1>Robert Twain</h1>
+                                    <h3>Organization name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                            <div class="testimonials-text">
+                                <!-- <a href="#" class="text-link"></a> -->
+                                <div class="testimonials-avatar">
+                                    <h1>Amelia Clarke</h1>
+                                    <h3>Organization name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                            <div class="testimonials-text">
+                                <!-- <a href="#" class="text-link"></a> -->
+                                <div class="testimonials-avatar">
+                                    <h1>Owen Hodges</h1>
+                                    <h3>Organization name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                            <div class="testimonials-text">
+                                <!-- <a href="#" class="text-link"></a> -->
+                                <div class="testimonials-avatar">
+                                    <h1>Eve Hatch</h1>
+                                    <h3>Organization name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                            <div class="testimonials-text">
+                                <!-- <a href="#" class="text-link"></a> -->
+                                <div class="testimonials-avatar">
+                                    <h1>Conner Watson</h1>
+                                    <h3>Organization name</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tc-pagination"></div>
+    </div>
+    
+</section>
+
+<section id="ginc-incubatees">
     <div class="content">
         <h2 class="ginc-section-title text-center mb-2">this year selected incubatees</h2>
         <div class="bg-ginc-1">
