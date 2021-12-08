@@ -710,7 +710,7 @@ footer input {
 	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
 }
 
-#ginc-advisors .swiper-slide-active .testimonials-text {
+#ginc-advisors .swiper-slide .testimonials-text {
 	background: #fff;
 	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
 }
@@ -835,3 +835,5 @@ footer input {
         border-left: none;
     }
 }
+
+

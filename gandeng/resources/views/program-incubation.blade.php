@@ -191,16 +191,11 @@
     </div>
 </section>
 
-<section id="ginc-incubatees" class="incubatees">
 <section id="ginc-advisors">
-    <div class="container">
-        <div class="section-title">
-            <h2>This Year Selected Incubatees</h2>
-            <span class="section-separator"></span>
-        </div>
-        <div class="section-sub-title">
-            Here are the list of this year selected incubatees.
-        </div>
+    <div class="container mb-5">
+        <h2 class="ginc-section-title text-center mb-2">OUR advisors & trainers</h2>
+        <span class="section-separator"></span>
+        <p class="text-center">Here are the list of this year selected incubatees.</p>
     </div>
     <div class="testimonials-carousel-wrap">
         <div class="d-flex justify-content-center">
@@ -280,6 +275,104 @@
                 </div>
             </div>
         </div>
+
+<div class="bg-ginc-0">
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="items">
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide mt-5">
+                <div class="testi-item">
+                    <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
+                    <div class="testimonials-text">
+                        <!-- <a href="#" class="text-link"></a> -->
+                        <div class="testimonials-avatar">
+                            <h1>Amelia Clarke</h1>
+                            <h3>Organization name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 
         <div class="tc-pagination"></div>
     </div>
