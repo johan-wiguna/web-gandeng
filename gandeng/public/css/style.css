@@ -568,111 +568,18 @@ footer input {
 	margin-left: -25px;
 }
 
-#ginc-advisors .swiper-container {
-	width: 100%;
-	height: 100%;
-}
-
-.listing-carousel-button{
-	position: static;
-	top: 3400px;
-	width: 80px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: -25px;
-	z-index: 100;
-	cursor: pointer;
-	background: #65C097;
-	box-shadow: 0 6px 8px rgba(58, 87,135,0.45);
-	transition: all 200ms linear;
-	outline: none;
-}
-
-/* #ginc-advisors .listing-carousel-button{
-	position: inherit;
-	width: 80px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: -25px;
-	z-index: 100;
-	cursor: pointer;
-	background: #65C097;
-	box-shadow: 0 6px 8px rgba(58, 87,135,0.45);
-	transition: all 200ms linear;
-	outline: none;
-} */
-
-#ginc-advisors .listing-carousel-button.listing-carousel-button-next{
-	right: -30px;
-	padding-right: 20px;
-	border-radius: 60px 0 0 60px;
-}
-
-#ginc-advisors .listing-carousel-button.listing-carousel-button-prev{
-	left: -30px;
-	padding-left: 20px;
-	border-radius: 0 60px 60px 0;
-}
-
-#ginc-advisors .listing-carousel-button.listing-carousel-button-next:hover{
-	right: -15px;
-	background: #54a17f;
-}
-
-#ginc-advisors .listing-carousel-button.listing-carousel-button-prev:hover{
-	left: -15px;
-	background: #54a17f;
-}
-
 #ginc-advisors .testi-item {
 	transition: all .3s ease-in-out;
 	transform: scale(0.9);
-	opacity: 0.9;
 }
 
 #ginc-advisors .testimonials-text {
-	padding: 100px 50px;
+	padding: 100px 24px;
 	overflow:hidden;
-	background: #f5f6fa;
-	border:1ps solid #f1f1f1;
-	border-radius: 10px;
+	background: #ffffff;
+	border-radius: 12px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 	transition: all .3s ease-in-out;
-}
-
-#ginc-advisors .testimonials-text-after{
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: inherit;
-	position: absolute;
-	color: #ccc;
-	opacity: .3;
-	font-size: 35px;
-	transition: all 400ms linear;
-	bottom: 25px;
-	right: 30px;
-}
-
-#ginc-advisors .testimonials-text-before{
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: inherit;
-	position: absolute;
-	color: #ccc;
-	opacity: .3;
-	font-size: 35px;
-	transition: all 400ms linear;
-	top: 25px;
-	left: 30px;
-}
-
-#ginc-advisors .testimonials-text .listing-rating{
-	float: none;
-	display: inline-block;
-	margin-bottom: 12px;
-}
-
-#ginc-advisors .listing-rating i{
-	color: #65C097;
 }
 
 #ginc-advisors .testimonials-avatar {
@@ -688,10 +595,6 @@ footer input {
 	 color:#65C097;
 }
 
-#ginc-advisors .testimonials-carousel .swiper-slide{
-	padding: 100px 0;
-}	
-
 #ginc-advisors .testi-avatar{
 	position: absolute;
 	left: 50%;
@@ -699,7 +602,7 @@ footer input {
 	width: 128px;
 	height: 128px;
 	margin-left: -64px;
-	z-index: 20;
+	z-index: 2;
 }
 
 #ginc-advisors .testi-avatar img{
@@ -707,48 +610,14 @@ footer input {
 	float: left;
 	border-radius: 100%;
 	border:6px solid #fff;
-	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-#ginc-advisors .swiper-slide-active .testimonials-text {
-	background: #fff;
-	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+#ginc-advisors .slick-slide {
+    transition: 0.5s;
 }
 
-#ginc-advisors .items .swiper-slide .testimonials-text {
-	background: #fff;
-	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
-}
-
-#ginc-advisors .swiper-wrapper {
-	padding: 32px 0px;
-	cursor: pointer;
-}
-
-#ginc-advisors .testimonials-text p{
-	color: #878c9f;
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	line-height: 24px;
-	padding-bottom: 10px;
-	font-weight: 500;
-}
-
-#ginc-advisors .text-link{
-	position: absolute;
-	bottom:0;
-	padding: 15px 0;
-	border-radius: 10px 10px 0 0;
-	background: #f9f9f9;
-	border:1px solid #eee;
-	box-shadow: 0 10px 15px rgba(0,0,0,0.03);
-	left: 50%;
-	width: 200px;
-	margin-left: -100px;
-}
-
-#ginc-advisors .swiper-slide-active .testi-item{
+#ginc-advisors .slick-current {
 	opacity: 1;
 	transform: scale(1.1);
 }
@@ -794,17 +663,29 @@ footer input {
         border-top: 1px solid rgb(80, 80, 80);
         padding: 12px 0 !important;
     }
+
+    #program-gallery-swiper {
+        width: 280px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     #program-gallery-swiper {
         width: 400px;
     }
+
+    #background-container {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin-left: 0 !important;
+    }
+
+    #program-gallery-swiper {
+        width: 500px;
     }
 
     #faq-container > div {
