@@ -366,7 +366,6 @@ footer input {
     object-fit: contain;
 }
 
-/* ginc-incubatees */
 #incubatees-swiper {
     width: 100%;
 }
@@ -586,13 +585,14 @@ footer input {
 	margin-top: 36px;
 }
 
-#ginc-advisors .profile-details h1{
-	color: #7d93b2;
+#ginc-advisors .profile-details .profile-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #65c097;
 }
 
-#ginc-advisors .profile-details h3{
-	 margin-top:6px;
-	 color:#65C097;
+#ginc-advisors .profile-details .profile-other {
+    font-size: 18px;
 }
 
 #ginc-advisors .profile-image{
@@ -615,6 +615,10 @@ footer input {
 
 #ginc-advisors .slick-slide {
     transition: 0.5s;
+}
+
+.slick-prev {
+    left: -37px;
 }
 
 #ginc-advisors .slick-next:before, #ginc-advisors .slick-prev:before {
@@ -654,6 +658,7 @@ footer input {
 	height: 10px;
 	transition: all 300ms ease-in-out;
 }
+
 @media only screen and (max-width: 600px) {
     #footer-upper {
         display: block !important;

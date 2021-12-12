@@ -206,16 +206,14 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
                 <div class="items">
                     <div class="mt-5">
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
+                                <div class="profile-details text-center">
+                                    <div class="profile-name">Amelia Clarke</div>
+                                    <div class="profile-other">NGO/SE Name</div>
                                 </div>
                             </div>
                         </div>
@@ -225,10 +223,9 @@
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
+                                <div class="profile-details text-center">
+                                    <div class="profile-name">Amelia Clarke</div>
+                                    <div class="profile-other">NGO/SE Name</div>
                                 </div>
                             </div>
                         </div>
@@ -238,10 +235,9 @@
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
+                                <div class="profile-details text-center">
+                                    <div class="profile-name">Amelia Clarke</div>
+                                    <div class="profile-other">NGO/SE Name</div>
                                 </div>
                             </div>
                         </div>
@@ -251,10 +247,9 @@
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
+                                <div class="profile-details text-center">
+                                    <div class="profile-name">Amelia Clarke</div>
+                                    <div class="profile-other">NGO/SE Name</div>
                                 </div>
                             </div>
                         </div>
@@ -264,35 +259,20 @@
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="profile-details">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
+                                <div class="profile-details text-center">
+                                    <div class="profile-name">Amelia Clarke</div>
+                                    <div class="profile-other">NGO/SE Name</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     
 </section>
 
-<section id="ginc-incubatees">
+<section id="program-incubatees" class="incubatees">
     <div class="content">
         <h2 class="ginc-section-title text-center mb-2">this year selected incubatees</h2>
         <div class="bg-ginc-1">
