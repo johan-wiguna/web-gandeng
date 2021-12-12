@@ -505,6 +505,12 @@ footer input {
 	transition: all .3s ease-in-out;
 }
 
+#ginc-advisors .profile-socials i {
+    color: #505050;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
 #ginc-advisors .profile-details {
 	margin-top: 36px;
 }

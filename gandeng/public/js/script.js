@@ -18,6 +18,8 @@ const swiper = new Swiper('.swiper', {
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
     },
+
+    speed: 700,
 });
 
 function expandFAQ(id) {
@@ -113,6 +115,7 @@ $(document).ready(function(){
         dots: true,
         slidesToShow: 3,
         swipeToSlide: true,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 1024,

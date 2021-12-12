@@ -200,8 +200,8 @@
 
 <section id="ginc-advisors" class="pb-5">
     <div class="container">
-        <h2 class="ginc-section-title text-center mb-2">This Year Selected Incubatees</h2>
-        <p class="text-center mb-4">Here are the list of this year selected incubatees.</p>
+        <h2 class="ginc-section-title text-center mb-2">Our advisors & trainers</h2>
+        <p class="text-center mb-4">Curious to know more about them? Click any of the profile below to go to their LinkedIn page!</p>
     </div>
     
     <div class="container">
@@ -210,58 +210,14 @@
                     <div class="mt-5">
                         <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <div class="profile-details text-center">
+                            <div class="profile-content text-center">
+                                <div class="profile-details mb-1">
                                     <div class="profile-name">Amelia Clarke</div>
                                     <div class="profile-other">NGO/SE Name</div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <div class="profile-details text-center">
-                                    <div class="profile-name">Amelia Clarke</div>
-                                    <div class="profile-other">NGO/SE Name</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <div class="profile-details text-center">
-                                    <div class="profile-name">Amelia Clarke</div>
-                                    <div class="profile-other">NGO/SE Name</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <div class="profile-details text-center">
-                                    <div class="profile-name">Amelia Clarke</div>
-                                    <div class="profile-other">NGO/SE Name</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content">
-                                <div class="profile-details text-center">
-                                    <div class="profile-name">Amelia Clarke</div>
-                                    <div class="profile-other">NGO/SE Name</div>
+                                <div class="profile-socials">
+                                    <i class="fab fa-linkedin fa-2x" onclick="location.href='http://www.google.com'"></i>
+                                    <i class="fab fa-instagram fa-2x" onclick="location.href='http://www.google.com'"></i>
                                 </div>
                             </div>
                         </div>
@@ -274,7 +230,8 @@
 
 <section id="program-incubatees" class="incubatees">
     <div class="content">
-        <h2 class="ginc-section-title text-center mb-2">this year selected incubatees</h2>
+        <h2 class="ginc-section-title text-center mb-2">This year selected incubatees</h2>
+        <p class="text-center mb-4">Here are the list of this year selected incubatees.</p>
         <div class="bg-ginc-1">
             <div class="container">
                 <div id="incubatees-swiper" class="swiper">
