@@ -191,7 +191,7 @@
     </div>
 </section> --}}
 
-<section id="ginc-reasons">
+<section id="program-reasons">
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">Reasons to join us</h2>
         <p class="text-center mb-4"></p>
