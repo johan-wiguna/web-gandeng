@@ -204,96 +204,16 @@
         <p class="text-center mb-4">Here are the list of this year selected incubatees.</p>
     </div>
     
-    {{-- <div class="testimonials-carousel-wrap">
-        <div class="d-flex justify-content-center">
-            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
-            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div> 
-        </div>
-
-        <div class="testimonials-carousel m-5">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Cards -->
-                    <div class="swiper-slide" onclick="zoomProfile(this)">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
-                                    <h1>Robert Twain</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
-                                    <h1>Amelia Clarke</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
-                                    <h1>Owen Hodges</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
-                                    <h1>Eve Hatch</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
-                                <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
-                                    <h1>Conner Watson</h1>
-                                    <h3>Organization name</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="items">
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>
@@ -302,11 +222,11 @@
                     </div>
 
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>
@@ -315,11 +235,11 @@
                     </div>
 
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>
@@ -328,11 +248,11 @@
                     </div>
 
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>
@@ -341,11 +261,11 @@
                     </div>
 
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>
@@ -354,11 +274,11 @@
                     </div>
 
                     <div class="mt-5">
-                        <div class="testi-item">
-                            <div class="testi-avatar"><img src="https://picsum.photos/200"></div>
-                            <div class="testimonials-text">
+                        <div class="profile-item">
+                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                            <div class="profile-content">
                                 <!-- <a href="#" class="text-link"></a> -->
-                                <div class="testimonials-avatar">
+                                <div class="profile-details">
                                     <h1>Amelia Clarke</h1>
                                     <h3>Organization name</h3>
                                 </div>

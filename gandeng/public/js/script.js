@@ -109,7 +109,7 @@ $(document).ready(function () {
 
 $(document).ready(function(){
     $('.items').slick({
-        centerMode: true,
+        centerMode: false,
         dots: true,
         slidesToShow: 3,
         swipeToSlide: true,

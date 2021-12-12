@@ -568,12 +568,12 @@ footer input {
 	margin-left: -25px;
 }
 
-#ginc-advisors .testi-item {
+#ginc-advisors .profile-item {
 	transition: all .3s ease-in-out;
 	transform: scale(0.9);
 }
 
-#ginc-advisors .testimonials-text {
+#ginc-advisors .profile-content {
 	padding: 100px 24px;
 	overflow:hidden;
 	background: #ffffff;
@@ -582,20 +582,20 @@ footer input {
 	transition: all .3s ease-in-out;
 }
 
-#ginc-advisors .testimonials-avatar {
+#ginc-advisors .profile-details {
 	margin-top: 36px;
 }
 
-#ginc-advisors .testimonials-avatar h1{
+#ginc-advisors .profile-details h1{
 	color: #7d93b2;
 }
 
-#ginc-advisors .testimonials-avatar h3{
+#ginc-advisors .profile-details h3{
 	 margin-top:6px;
 	 color:#65C097;
 }
 
-#ginc-advisors .testi-avatar{
+#ginc-advisors .profile-image{
 	position: absolute;
 	left: 50%;
 	top: -40px;
@@ -605,7 +605,7 @@ footer input {
 	z-index: 2;
 }
 
-#ginc-advisors .testi-avatar img{
+#ginc-advisors .profile-image img{
 	width: 128px;
 	float: left;
 	border-radius: 100%;
@@ -617,9 +617,10 @@ footer input {
     transition: 0.5s;
 }
 
-#ginc-advisors .slick-current {
-	opacity: 1;
-	transform: scale(1.1);
+#ginc-advisors .slick-next:before, #ginc-advisors .slick-prev:before {
+    font-size: 32px;
+    color: #65c097;
+    opacity: 1;
 }
 
 #ginc-advisors .tc-pagination{
