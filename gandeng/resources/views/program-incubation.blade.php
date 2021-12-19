@@ -213,12 +213,12 @@
                             <div class="profile-image"><img src="{{ asset($adv_train->profile_picture) }}"></div>
                             <div class="profile-content text-center">
                                 <div class="profile-details mb-1">
-                                    <div class="profile-name">{{ asset($adv_train->name) }}</div>
-                                    <div class="profile-other">{{ asset($adv_train->ngo_se) }}</div>
+                                    <div class="profile-name">{{ $adv_train->name }}</div>
+                                    <div class="profile-other">{{ $adv_train->ngo_se }}</div>
                                 </div>
                                 <div class="profile-socials">
-                                    <i class="fab fa-linkedin fa-2x" onclick="location.href='{{ asset($adv_train->linkedin_url) }}'"></i>
-                                    <i class="fab fa-instagram fa-2x" onclick="location.href='{{ asset($adv_train->instagram_url) }}'"></i>
+                                    <i class="fab fa-linkedin fa-2x" onclick="location.href='{{ $adv_train->linkedin_url }}'"></i>
+                                    <i class="fab fa-instagram fa-2x" onclick="location.href='{{ $adv_train->instagram_url }}'"></i>
                                 </div>
                             </div>
                         </div>
@@ -255,8 +255,8 @@
                             @foreach($incubatees as $inc)
                                 <div class="d-flex-row justify-content-center flex-wrap text-center">
                                     <img src="{{ asset($inc->profile_picture) }}" alt="">
-                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ asset($inc->name) }}</h6>
-                                    <p>{{ asset($inc->ngo_se) }}</p>
+                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ $inc->name }}</h6>
+                                    <p>{{ $inc->ngo_se }}</p>
                                 </div>
                             @endforeach
 
@@ -313,8 +313,8 @@
                             @foreach($incubatees as $inc)
                                 <div class="d-flex-row justify-content-center flex-wrap text-center">
                                     <img src="{{ asset($inc->profile_picture) }}" alt="">
-                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ asset($inc->name) }}</h6>
-                                    <p>{{ asset($inc->ngo_se) }}</p>
+                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ $inc->name }}</h6>
+                                    <p>{{ $inc->ngo_se }}</p>
                                 </div>
                             @endforeach
 
