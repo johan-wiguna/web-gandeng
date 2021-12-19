@@ -196,14 +196,29 @@
         <h2 class="ginc-section-title text-center mb-2">Reasons to join us</h2>
         <p class="text-center mb-4"></p>
 
-        <div class="reason d-flex align-items-center">
-            <p class="angka text-center">
-                1
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+
+        <div class="reason-container">
+            <div class="reason mb-5 d-flex align-items-center">
+                <div class="angka text-center">1</div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div> 
+            <div class="reason mb-5">
+                <div class="angka text-center">2</div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div> 
+            <div class="reason mb-5">
+                <div class="angka text-center">3</div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div> 
         </div>
+        
+
     </div>
 </section>
 
