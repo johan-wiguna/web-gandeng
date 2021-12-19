@@ -36,7 +36,7 @@
                 <li class="nav-item dropdown ms-2">
                     <a class="nav-link dropdown-toggle" href="/programs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item" href="/programs/g-academia">G-Acadaemia</a></li>
+                        <li><a class="dropdown-item" href="/programs/g-academia">G-Academia</a></li>
                         <li><a class="dropdown-item" href="/programs/g-consulting">G-Consulting</a></li>
                         <li><a class="dropdown-item" href="/programs/g-incubation">G-Incubation</a></li>
                     </ul>
