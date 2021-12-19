@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IncubationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,8 +21,4 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/programs/g-incubation', function () {
-    return view('program-incubation', [
-        "title" => "G-Incubation"
-    ]);
-});
+Route::get('/programs/g-incubation',[IncubationController::class, 'index']);
