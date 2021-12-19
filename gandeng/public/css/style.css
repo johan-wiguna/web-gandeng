@@ -288,6 +288,10 @@ footer input {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.department-avatar {
+    width: 140px;
+}
+
 @media all and (min-width: 992px) {
     /* Make navbar dropdown links triggered on hover */
 	.navbar .nav-item .dropdown-menu{

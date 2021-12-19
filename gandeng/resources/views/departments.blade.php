@@ -35,7 +35,7 @@
                     <div class="directors d-flex justify-content-center flex-wrap mb-4">
                         @foreach ($departments[array_keys($departments)[$i]]["Director"] as $person)
                             <div class="director text-center mx-3">
-                                <img class="mb-2" src="https://picsum.photos/200" alt="">
+                                <img class="department-avatar mb-2" src="https://picsum.photos/200" alt="">
                                 <div>{{ $person }}</div>
                                 <div><b>Director of {{ array_keys($departments)[$i] }}</b></div>
                             </div>
@@ -45,7 +45,7 @@
                     <div class="managers d-flex justify-content-center flex-wrap">
                         @foreach ($departments[array_keys($departments)[$i]]["Manager"] as $person)
                             <div class="manager text-center mx-3">
-                                <img class="mb-2" src="https://picsum.photos/200" alt="">
+                                <img class="department-avatar mb-2" src="https://picsum.photos/200" alt="">
                                 <div>{{ $person }}</div>
                                 <div><b>Manager of {{ array_keys($departments)[$i] }}</b></div>
                             </div>
