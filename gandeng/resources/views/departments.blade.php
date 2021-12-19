@@ -29,41 +29,27 @@
                 <p class="text-center mb-4">These are the directors and managers of Branding departments.</p>
 
                 <div class="directors d-flex justify-content-center flex-wrap mb-4">
-                    <div class="director text-center mx-3">
-                        <img class="mb-2" src="https://picsum.photos/120" alt="">
-                        <div class="">Lorem Ipsum</div>
-                        <div><b>Director of Branding</b></div>
-                    </div>
+                    @foreach ($departments["Branding"]["Director"] as $person)
+                        <div class="director text-center mx-3">
+                            <img class="mb-2" src="https://picsum.photos/120" alt="">
+                            <div>{{ $person }}</div>
+                            <div><b>Director of Branding</b></div>
+                        </div>
+                    @endforeach
                 </div>
 
                 <div class="managers d-flex justify-content-center flex-wrap">
-                    <div class="manager text-center mx-3">
-                        <img class="mb-2" src="https://picsum.photos/120" alt="">
-                        <div>Lorem Ipsum</div>
-                        <div><b>Manager of Branding</b></div>
-                    </div>
-
-                    <div class="manager text-center mx-3">
-                        <img class="mb-2" src="https://picsum.photos/120" alt="">
-                        <div>Lorem Ipsum</div>
-                        <div><b>Manager of Branding</b></div>
-                    </div>
-
-                    <div class="manager text-center mx-3">
-                        <img class="mb-2" src="https://picsum.photos/120" alt="">
-                        <div>Lorem Ipsum</div>
-                        <div><b>Manager of Branding</b></div>
-                    </div>
-
-                    <div class="manager text-center mx-3">
-                        <img class="mb-2" src="https://picsum.photos/120" alt="">
-                        <div>Lorem Ipsum</div>
-                        <div><b>Manager of Branding</b></div>
-                    </div>
+                    @foreach ($departments["Branding"]["Manager"] as $person)
+                        <div class="manager text-center mx-3">
+                            <img class="mb-2" src="https://picsum.photos/120" alt="">
+                            <div>{{ $person }}</div>
+                            <div><b>Manager of Branding</b></div>
+                        </div>
+                    @endforeach
                 </div>
             </div>
             
-            <div id="operations-members" class="d-none">
+            {{-- <div id="operations-members" class="d-none">
                 <p class="text-center mb-4">These are the directors and managers of Operations departments.</p>
 
                 <div class="directors d-flex justify-content-center flex-wrap mb-4">
@@ -155,7 +141,7 @@
                         <div><b>Manager of Branding</b></div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
