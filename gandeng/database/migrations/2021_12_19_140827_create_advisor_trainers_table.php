@@ -17,7 +17,7 @@ class CreateAdvisorTrainersTable extends Migration
             $table->id('adv_tra_id');
             $table->timestamps();
             $table->string('name', 50);
-            $table->string('instagram_id',50)->nullable();
+            $table->string('instagram_url',50)->nullable();
             $table->string('linkedin_url',200)->nullable();
             $table->string('profile_picture',200)->nullable();
             $table->string('ngo_se',50)->nullable();

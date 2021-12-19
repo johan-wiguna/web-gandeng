@@ -208,7 +208,22 @@
         <div class="row">
                 <div class="items">
                     <div class="mt-5">
+                        @foreach($adv_trains as $adv_train)
                         <div class="profile-item">
+                            <div class="profile-image"><img src="{{ asset($adv_train->profile_picture) }}"></div>
+                            <div class="profile-content text-center">
+                                <div class="profile-details mb-1">
+                                    <div class="profile-name">{{ asset($adv_train->name) }}</div>
+                                    <div class="profile-other">{{ asset($adv_train->ngo_se) }}</div>
+                                </div>
+                                <div class="profile-socials">
+                                    <i class="fab fa-linkedin fa-2x" onclick="location.href='{{ asset($adv_train->linkedin_url) }}'"></i>
+                                    <i class="fab fa-instagram fa-2x" onclick="location.href='{{ asset($adv_train->instagram_url) }}'"></i>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+                        {{-- <div class="profile-item">
                             <div class="profile-image"><img src="https://picsum.photos/200"></div>
                             <div class="profile-content text-center">
                                 <div class="profile-details mb-1">
@@ -220,7 +235,7 @@
                                     <i class="fab fa-instagram fa-2x" onclick="location.href='http://www.google.com'"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
         </div>
@@ -237,7 +252,15 @@
                 <div id="incubatees-swiper" class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide d-flex flex-wrap justify-content-around p-5">
-                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                            @foreach($incubatees as $inc)
+                                <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                    <img src="{{ asset($inc->profile_picture) }}" alt="">
+                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ asset($inc->name) }}</h6>
+                                    <p>{{ asset($inc->ngo_se) }}</p>
+                                </div>
+                            @endforeach
+
+                            {{-- <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
                                 <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
                                 <p>NGO/SE Name</p>
@@ -283,11 +306,19 @@
                                 <img src="https://picsum.photos/100" alt="">
                                 <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
                                 <p>NGO/SE Name</p>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <div class="swiper-slide d-flex flex-wrap justify-content-around p-5">
-                            <div class="d-flex-row justify-content-center flex-wrap text-center">
+                            @foreach($incubatees as $inc)
+                                <div class="d-flex-row justify-content-center flex-wrap text-center">
+                                    <img src="{{ asset($inc->profile_picture) }}" alt="">
+                                    <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">{{ asset($inc->name) }}</h6>
+                                    <p>{{ asset($inc->ngo_se) }}</p>
+                                </div>
+                            @endforeach
+
+                            {{-- <div class="d-flex-row justify-content-center flex-wrap text-center">
                                 <img src="https://picsum.photos/100" alt="">
                                 <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
                                 <p>NGO/SE Name</p>
@@ -333,7 +364,7 @@
                                 <img src="https://picsum.photos/100" alt="">
                                 <h6 class="text-content-bold my-2 incubatees-name d-flex align-items-center justify-content-center">Lorem Ipsum</h6>
                                 <p>NGO/SE Name</p>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
@@ -360,17 +391,11 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
+                @foreach($gallery_imgs as $gallery_img)
                 <div class="swiper-slide">
-                    <img src="https://picsum.photos/1600/900" alt="">
+                    <img src="{{ asset($gallery_img->image_url)}}" alt="{{ $gallery_img->alt }}">
                 </div>
-                
-                <div class="swiper-slide">
-                    <img src="https://picsum.photos/1920/1080" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="https://picsum.photos/1280/720" alt="">
-                </div>
+                @endforeach
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>

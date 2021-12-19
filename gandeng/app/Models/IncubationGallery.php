@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class IncubationCarousel extends Model
+class IncubationGallery extends Model
 {
-    protected $table = 'incubation_carousels';
-    protected $primarykey = 'carousel_id';
+    protected $table = 'incubation_gallery';
+    protected $primarykey = 'gallery_id';
     public $incrementing = true;
 }

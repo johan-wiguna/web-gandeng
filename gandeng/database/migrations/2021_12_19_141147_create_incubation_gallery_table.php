@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateIncubationCarouselsTable extends Migration
+class CreateIncubationGalleryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class CreateIncubationCarouselsTable extends Migration
      */
     public function up()
     {
-        Schema::create('incubation_carousels', function (Blueprint $table) {
-            $table->id('carousel_id');
+        Schema::create('incubation_gallery', function (Blueprint $table) {
+            $table->id('gallery_id');
             $table->timestamps();
             $table->string('image_url', 100);
             $table->string('alt', 100);
@@ -28,6 +28,6 @@ class CreateIncubationCarouselsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('incubation_carousels');
+        Schema::dropIfExists('incubation_gallery');
     }
 }
