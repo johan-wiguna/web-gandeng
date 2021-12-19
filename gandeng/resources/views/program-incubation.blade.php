@@ -195,6 +195,15 @@
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">Reasons to join us</h2>
         <p class="text-center mb-4"></p>
+
+        <div class="reason d-flex align-items-center">
+            <p class="angka text-center">
+                1
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
     </div>
 </section>
 
