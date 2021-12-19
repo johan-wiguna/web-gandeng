@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DepartmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,8 +41,4 @@ Route::get('/about/founders', function () {
     ]);
 });
 
-Route::get('/departments', function () {
-    return view('departments', [
-        "title" => "Departments"
-    ]);
-});
+Route::get('/departments',[DepartmentController::class, 'index']);

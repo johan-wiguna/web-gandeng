@@ -10,8 +10,8 @@ class DepartmentController extends Controller
 {
     public function index() {
         $people = DB::table('positions')
-                            ->join('persons', 'positions.person_id', '=', 'persons.id')
-                            ->join('departments', 'positions.department_id', '=', 'departments.id')
+                            ->join('persons', 'positions.person_id', '=', 'persons.person_id')
+                            ->join('departments', 'positions.department_id', '=', 'departments.department_id')
                             ->select(
                                 'persons.name as name', 
                                 'departments.name as department', 
@@ -51,6 +51,7 @@ class DepartmentController extends Controller
             
             array_push($departments[$department][$position], $name);
         }
+
         return view('departments', [
             "title" => "Departments",
             "departments" => $departments
