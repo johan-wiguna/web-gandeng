@@ -306,6 +306,14 @@ footer input {
 }
 
 @media only screen and (max-width: 600px) {
+    .text-content-regular, .text-content-light {
+        font-size: 14px;
+    }
+
+    .text-content-regular-l, .text-content-light-l {
+        font-size: 16px;
+    }
+
     #footer-upper {
         display: block !important;
     }
