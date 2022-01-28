@@ -191,26 +191,26 @@
     </div>
 </section> --}}
 
-<section id="program-reasons">
+<section id="program-reasons" class="incubation">
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">Reasons to join us</h2>
         <p class="text-center mb-4"></p>
 
 
-        <div class="reason-container">
-            <div class="reason mb-5 d-flex align-items-center">
+        <div class="reason-container d-flex flex-column justify-content-center">
+            <div class="reason mb-4 d-flex align-items-center">
                 <div class="angka text-center">1</div>
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
             </div> 
-            <div class="reason mb-5">
+            <div class="reason mb-4 d-flex align-items-center">
                 <div class="angka text-center">2</div>
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
-            </div> 
-            <div class="reason mb-5">
+            </div>
+            <div class="reason mb-4 d-flex align-items-center">
                 <div class="angka text-center">3</div>
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -230,23 +230,23 @@
     
     <div class="container">
         <div class="row">
-                <div class="items">
-                    <div class="mt-5">
-                        <div class="profile-item">
-                            <div class="profile-image"><img src="https://picsum.photos/200"></div>
-                            <div class="profile-content text-center">
-                                <div class="profile-details mb-1">
-                                    <div class="profile-name">Amelia Clarke</div>
-                                    <div class="profile-other">NGO/SE Name</div>
-                                </div>
-                                <div class="profile-socials">
-                                    <i class="fab fa-linkedin fa-2x" onclick="location.href='http://www.google.com'"></i>
-                                    <i class="fab fa-instagram fa-2x" onclick="location.href='http://www.google.com'"></i>
-                                </div>
+            <div class="items">
+                <div class="mt-5">
+                    <div class="profile-item">
+                        <div class="profile-image"><img src="https://picsum.photos/200"></div>
+                        <div class="profile-content text-center">
+                            <div class="profile-details mb-1">
+                                <div class="profile-name">Amelia Clarke</div>
+                                <div class="profile-other">NGO/SE Name</div>
+                            </div>
+                            <div class="profile-socials">
+                                <i class="fab fa-linkedin fa-2x" onclick="location.href='http://www.google.com'"></i>
+                                <i class="fab fa-instagram fa-2x" onclick="location.href='http://www.google.com'"></i>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     
