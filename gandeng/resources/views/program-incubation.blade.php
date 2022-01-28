@@ -41,10 +41,8 @@
             </span>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center">
-            <div>
-                <img id="question-img" src="{{ asset('img/g-incubation/question.svg') }}" alt="">
-            </div>
+        <div id="solution-container" class="d-flex justify-content-center align-items-center">
+            <img id="question-img" src="{{ asset('img/g-incubation/question.svg') }}" alt="">
 
             <div>
                 <div>
@@ -85,57 +83,57 @@
         <p class="text-center mb-4">Here are the list of what you will be learning in this program.</p>
         
         <div class="module-container d-flex justify-content-around align-items-center flex-wrap">
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-1.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Strategic Management</div>
             </div>
             
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-2.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Product Management</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-3.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Marketing</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-4.png') }}" alt="">
                 <div class="module-title text-content-regular-l">HR Management</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-5.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Organizational Culture</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-6.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Logistic and Supply Chain</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-7.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Project Management</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-8.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Performance Management</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-9.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Financial Management</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-10.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Legal</div>
             </div>
 
-            <div class="module d-flex justify-content-center">
+            <div class="module d-flex justify-content-center align-items-center">
                 <img class="module-icon" style="width:36px;" src="{{ asset('img/g-incubation/c-11.png') }}" alt="">
                 <div class="module-title text-content-regular-l">Research Method</div>
             </div>
@@ -193,32 +191,28 @@
 
 <section id="program-reasons" class="incubation">
     <div class="container">
-        <h2 class="ginc-section-title text-center mb-2">Reasons to join us</h2>
-        <p class="text-center mb-4"></p>
-
-
+        <h2 class="ginc-section-title text-center mb-4">Reasons to join us</h2>
+        
         <div class="reason-container d-flex flex-column justify-content-center">
             <div class="reason mb-4 d-flex align-items-center">
-                <div class="angka text-center">1</div>
-                <div class="text">
+                <div class="number text-center">1</div>
+                <div class="content text-content-regular">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
             </div> 
             <div class="reason mb-4 d-flex align-items-center">
-                <div class="angka text-center">2</div>
-                <div class="text">
+                <div class="number text-center">2</div>
+                <div class="content text-content-regular">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
             </div>
             <div class="reason mb-4 d-flex align-items-center">
-                <div class="angka text-center">3</div>
-                <div class="text">
+                <div class="number text-center">3</div>
+                <div class="content text-content-regular">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
-            </div> 
+            </div>
         </div>
-        
-
     </div>
 </section>
 
@@ -377,7 +371,7 @@
     <div class="container">
         <h2 class="ginc-section-title text-center mb-2">This is us</h2>
         <p class="text-content-regular text-center mb-4">
-            Here is some of our photos to let you know us better.
+            Here are some of our photos to let you know us better.
         </p>
 
         <div id="program-gallery-swiper" class="swiper mb-4">

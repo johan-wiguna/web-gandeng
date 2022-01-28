@@ -335,8 +335,14 @@ footer input {
     color: white;
 }
 
+#program-header img {
+    width: 40%;
+    min-width: 200px;
+}
+
 .problems-img {
-    width: 140px;
+    width: 40%;
+    max-width: 136px;
     height: auto;
 }
 
@@ -350,7 +356,7 @@ footer input {
     border-radius: 18px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     width: 390px;
-    margin: 12px 0;
+    margin: 8px 0;
 }
 
 #program-gallery-swiper {
@@ -399,7 +405,7 @@ footer input {
 }
 
 #program-cta img {
-    width: 420px;
+    width: 50%;
     height: auto;
 }
 
@@ -454,7 +460,8 @@ footer input {
 }
 
 #question-img {
-    width: 420px;
+    width: 50%;
+    min-width: 280px;
     height: auto;
 }
 
@@ -557,7 +564,11 @@ footer input {
     opacity: 1;
 }
 
-#program-reasons .text{
+.reason {
+    flex-basis: auto;
+}
+
+.reason .content{
     border: none;
     border-radius: 50px 30px 30px 50px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -568,7 +579,7 @@ footer input {
     z-index: 10;
 }
 
-#program-reasons .angka{
+.reason .number{
     border-radius: 50%;
     width: 65px;
     height: 65px;
@@ -577,7 +588,7 @@ footer input {
     text-decoration: none;
     position: absolute;
     z-index: 11;
-    font-size: 25px ;
+    font-size: 24px ;
     font-weight: bold;
     color: white;
     display: flex;
@@ -599,17 +610,29 @@ footer input {
     }
 
     #program-gallery-swiper {
-        width: 280px;
+        max-width: 300px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     #program-gallery-swiper {
-        width: 400px;
+        max-width: 360px;
     }
 
     #background-container {
         flex-direction: column;
+    }
+
+    #solution-container {
+        flex-direction: column;
+    }
+
+    #solution-container img {
+        margin-bottom: 24px;
+    }
+
+    #program-cta .d-flex {
+        flex-direction: column-reverse;
     }
 }
 
@@ -624,6 +647,10 @@ footer input {
 
     #faq-container > div {
         flex: 100%;
+    }
+
+    #program-gallery-swiper {
+        width: 600px;
     }
 }
 
